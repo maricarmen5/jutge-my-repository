@@ -1,4 +1,4 @@
-Aquest repositori conté les meves solucions als problemes de [Jutge] (https://jutge.org/) corresponents a les assignatures de Programació I (PRO1) i Fonaments de programació (FOPR) a l'Escola Politècnica Superior d'Enginyeria de Vilanova i la Geltrú (EPSEVG).
+Aquest repositori conté les meves solucions als problemes de [Jutge](https://jutge.org/) corresponents a les assignatures de Programació I (PRO1) i Fonaments de programació (FOPR) a l'Escola Politècnica Superior d'Enginyeria de Vilanova i la Geltrú (EPSEVG).
 
 ## FOPR
 ### Algorismes fonamentals
