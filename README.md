@@ -1,6 +1,6 @@
 Aquest repositori conté les meves solucions als problemes de [Jutge](https://jutge.org/) corresponents a les següents assignatures de l'Escola Politècnica Superior d'Enginyeria de Vilanova i la Geltrú (EPSEVG):
 - Programació I (PRO1)
-- Fonaments de programació (FOPR): no es troben els problemes de les primeres seccions ja que són més trivials.
+- Fonaments de programació (FOPR): no es troben els problemes de les primeres seccions ja que les seves solucions són més trivials.
 
 **Nota:** aquestes solucions poden NO ser òptimes, només s'assegura que el Jutge les accepta amb semàfor verd :green_circle:.
 
