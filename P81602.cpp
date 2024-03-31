@@ -19,11 +19,9 @@ int posicio_maxim(const vector<double>& v, int m)
 
 void ordena_per_seleccio(vector<double>& v, int m) 
 {
-    int p;
-    double a;
     if (0 < m) {
-        p = posicio_maxim(v, m);
-        a = v[p];
+        int p = posicio_maxim(v, m);
+        double a = v[p];
         v[p] = v[m];
         v[m] = a;
         ordena_per_seleccio(v, m - 1);
