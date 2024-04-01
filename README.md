@@ -124,6 +124,10 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P66257   L'element més freqüent
 ### Examen Final 2020-21 Q2
 - P58633   Control C403C
+- P67340   F010B. Alfils amenaçadors
+### Examen Final 2021-22 Q1
+- X82134   Elements de la columna per sota que són menors
+- X84073   Cotxes i distàncies
 ### Examen Final 2022-23 Q1
 - X85080   MercaTona Ofertes 3x2
 - X50679   Matriu 0
@@ -178,6 +182,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ### Llistes
 - X64830   Distribuir els elements d'una llista en dues llistes
 - X29544   Cerca en una llista de parells d'enters
+- X20684   Estadístiques d'una seqüència d'enters amb esborrat
 - X45082   Element central d'una llista
 - X33315   Compra d'articles d'una llista
 ### Arbres
@@ -239,25 +244,18 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X38946   Adaptar BinaryTree per a mantenir informació sobre l'alçada
 - X27581   Adaptar BinaryTree per a mantenir informació sobre la suma
 ### Mock exam Q1 control1 2023-24
-- X71949   Intercalar dues cues
 - X51909   Intercalar dues piles
-- X94001   Nombre de lletres a i b en un arbre binari
+- X91884   Nombre de lletres a i b en un arbre binari (igual al X94001)
 ### Mock exam Q1 control2 2023-24
 - X33905   Suma d'una llista
 - X26236   Suma d'una pila
 - X17446   Suma per sota de cada posició d'una pila saltant de dos en dos
 - X18348   Fitxers amb la mateixa extensió
-### Control1 Q1 2023-24
-- X19470   Eliminar repetits en una pila
-- X90153   Eliminar repetits en una cua
-- X91884   Nombre de lletres a i b en un arbre binari
 ### Llista exercicis examens anteriors
 - X15484   (Queue) Reemplaça 0s per suma abans a posició parell
 - X35723   (Stack) Reemplaça 0s per suma per sota a posició parell
 - X93188   (BinaryTrees) Reemplaça 0s per suma per sobre a profunditat parell
-- X71949   Intercalar dues cues
 - X51909   Intercalar dues piles
-- X94001   Nombre de lletres a i b en un arbre binari
 - X57820   Mètode de la classe cua per a moure el segon element al final
 - X95258   Mètode de llistes per intercanviar (swappejar) el primer i l'últim element
 - X69230   Suma alternada per sota de cada posició d'una pila
@@ -266,7 +264,3 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X26236   Suma d'una pila
 - X17446   Suma per sota de cada posició d'una pila saltant de dos en dos
 - X18348   Fitxers amb la mateixa extensió
-### Control2 Q1 2023-243
-- X39544   Suma de parells i senars en una pila
-- X33722   Equilibri parell/senar en arbres binaris
-- X49526   Màxim d'una pila
