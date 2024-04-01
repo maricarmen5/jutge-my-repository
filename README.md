@@ -1,10 +1,72 @@
 Aquest repositori conté les meves solucions als problemes de [Jutge](https://jutge.org/) corresponents a les següents assignatures de l'Escola Politècnica Superior d'Enginyeria de Vilanova i la Geltrú (EPSEVG):
 - Programació I (PRO1)
-- Fonaments de programació (FOPR): no es troben els problemes de les primeres seccions ja que les seves solucions són més trivials.
+- Fonaments de programació (FOPR)
 
-**Nota:** aquestes solucions poden NO ser òptimes, només s'assegura que el Jutge les accepta amb semàfor verd :green_circle:.
+**Nota:** aquestes solucions poden NO ser les més òptimes, però s'assegura que el Jutge accepta totes amb semàfor verd :green_circle:.
 
 ## FOPR
+### Primers Exercicis
+- P57548   Suma de dos enters
+- P41221   Suma de tres enters
+- P48107   Divisió entera i residu de dos naturals
+- P62421   Tres paraules
+- X17462   Multiplicació de dos enters
+- X29267   Àrea i circumferència d'un cercle
+### Seqüencial i primeres alternatives
+- P56118   Màxim de dos enters
+- P90615   Màxim de tres enters
+- P15613   Temperatures
+- P92351   Divisió entera i residu d'un enter amb un natural
+- P98960   Majúscules i minúscules
+- P42042   Classificació de caràcters (1)
+- P34279   Suma d'un segon
+- P92613   Arrodoniments
+- P37469   Descomposició horària (1)
+- P61634   Anys de traspàs
+- P51126   Intervals (1)
+- P56559   Intervals (2)
+- P89265   Intervals (3)
+- X60152   Prova d'alcoholèmia
+- X36683   Calculadora de Volums
+### Condicional i bucles
+- P37500   Primers nombres
+- P59875   Cap avall
+- P97156   Nombres en un interval
+- P36668   Suma de quadrats
+- P69277   Primers cubs
+- P31170   Taula de multiplicar
+- X26478   Compte enrere
+### Funcions
+- P95401   Funció per als anys de traspàs
+- P96275   Valor absolut
+- P65437   Intercanvi
+- P58459   Dates vàlides
+- P77686   Capicues
+- P34091   Nombres perfectes
+- P95972   Suma de divisors
+- P18777   Dia de la setmana
+### Esquemes iteratius
+- P29973   Triangle
+- P72484   Rombe
+- P24080   Quadrats (1)
+- P39225   I-èsim (1)
+- P61061   Producte de dígits
+- P71753   Màxim de cada seqüència
+- P80660   La seqüència de Collatz
+### Fluxos de dades (I)
+- P75149   Buscant una a
+- P89078   Primera posició
+- P97969   Comptant as (1)
+- P79817   Potències
+- P33839   Suma de dígits
+- P89872   Segona paraula màxima
+### Fluxos de dades (II)
+- P67454   Comptant as (2)
+- P87523   Hola-adéu
+- P73501   Parells creixents
+- P23001   Paraules consecutives repetides
+- P35957   Dígits centrals
+- P71753   Màxim de cada seqüència
 ### Examen Parcial 2020-21 Q2
 - P19564   Control C301B
 - P50471   Control C402F
@@ -36,7 +98,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P44243   Espirals
 - P16893   És la solució d'un Sudoku?
 - P99555   Magic squares
-### Recursivitat
+### Recursivitat (FOPR)
 - P12509   Factorial recursiu
 - P42523   Màxim comú divisor recursiu
 - P61384   Factorial doble recursiu
@@ -62,13 +124,16 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P66257   L'element més freqüent
 ### Examen Final 2020-21 Q2
 - P58633   Control C403C
-- P67340   F010B. Els alfils amenaçadors
-### Examen Final 2021-22 Q1
-- X82134   Elements de la columna per sota que són menors
-- X84073   Cotxes i distàncies
 ### Examen Final 2022-23 Q1
 - X85080   MercaTona Ofertes 3x2
 - X50679   Matriu 0
+### Altres exàmens o activitats
+- P31992   Control C502C
+- P38685   Control C403A - Activitat 2
+- P40187   Control C302C - Parcial
+- P94801   Control C203C - Parcial
+- P57047   Control C502B
+- P84528   F007A. Juguem a barcos? - Final
 ## PRO1
 ### Recursivitat
 - P12509   Factorial recursiu
