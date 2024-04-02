@@ -56,7 +56,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ### Fluxos de dades (I)
 - P75149   Buscant una a
 - P89078   Primera posició
-- P97969   Comptant as (1)
+- P97969   Comptant as (1). Igual que el P67454 Comptant as (2)
 - P79817   Potències
 - P33839   Suma de dígits
 - P89872   Segona paraula màxima
