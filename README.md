@@ -244,6 +244,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X38946   Adaptar BinaryTree per a mantenir informació sobre l'alçada
 - X27581   Adaptar BinaryTree per a mantenir informació sobre la suma
 ### Mock exam Q1 control1 2023-24
+- X71949   Intercalar dues cues
 - X51909   Intercalar dues piles
 - X91884   Nombre de lletres a i b en un arbre binari (igual al X94001)
 ### Mock exam Q1 control2 2023-24
