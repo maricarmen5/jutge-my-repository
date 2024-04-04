@@ -254,10 +254,12 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X18348   Fitxers amb la mateixa extensió
 ### Control1 Q1 2023/24
 - [X19470](https://github.com/maricarmen5/jutge-my-repository/blob/main/X19470.cpp)   Eliminar repetits en una pila
+- [X90153](https://github.com/maricarmen5/jutge-my-repository/blob/main/X90153.cpp)   Eliminar repetits en una cua
 ### Llista exercicis examens anteriors
 - X15484   (Queue) Reemplaça 0s per suma abans a posició parell
 - X35723   (Stack) Reemplaça 0s per suma per sota a posició parell
 - X93188   (BinaryTrees) Reemplaça 0s per suma per sobre a profunditat parell
+- [X71949](https://github.com/maricarmen5/jutge-my-repository/blob/main/X71949.cpp)   Intercalar dues cues
 - X51909   Intercalar dues piles
 - X57820   Mètode de la classe cua per a moure el segon element al final
 - X95258   Mètode de llistes per intercanviar (swappejar) el primer i l'últim element
@@ -267,3 +269,5 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X26236   Suma d'una pila
 - X17446   Suma per sota de cada posició d'una pila saltant de dos en dos
 - X18348   Fitxers amb la mateixa extensió
+### Examen Final (C2) Q1 2023/24
+- [X39544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X39544.cpp)   Suma de parells i senars en una pila
