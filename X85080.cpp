@@ -5,61 +5,42 @@ using namespace std;
 struct producte {
   int codi;
   double preu;
+  int unitats;
 };
 
-void resultats(vector<int> u, vector<producte> v) 
+int main()
 {
-  int prod=0;
-  vector<int> w(99901, 0);
-  for (unsigned int i=0; i<u.size(); ++i) ++w[u[i]-100];
-  for (unsigned int i=0; i<99901; ++i) {
-    if (w[i]!=0) ++prod;
-  }
-  cout<<"Productes diferents: "<<prod<<endl;
-  double total=0;
-  for (int i=0; i<99901; ++i) {
-    if (w[i]!=0) {
-      for (unsigned int j=0; j<v.size(); ++j) {
-        producte p;
-        p=v[j];
-        if (i+100==p.codi) total+=w[i]*p.preu;
-      }
+    int nombreProductes;
+    cin >> nombreProductes;
+    vector<Producte> productes(nombreProductes);
+    for (int i = 0; i < nombreProductes; ++i) {
+        int codi;
+        double preu;
+        cin >> codi >> preu;
+
+        productes[i] = {codi, preu, 0};
     }
-  }
-  cout<<"Total sense descompte: "<<total<<endl;
-  double desc=0;
-  for (int i=0; i<99901; ++i) {
-    while (2<w[i]) {
-      for (unsigned int j=0; j<v.size(); ++j) {
-        producte p;
-        p=v[j];
-        if (i+100==p.codi) desc-=p.preu;
-      }
-      w[i]=w[i]-3;
+    
+    int productesDiferents = 0;
+    double total = 0;
+    double descompte = 0;
+
+    int compra;
+    cin >> compra;
+    while (compra != -1) {
+        int i = 0;
+        while (compra != productes[i].codi) ++i;
+        
+        ++productes[i].unitats;
+        if (productes[i].unitats == 1) ++productesDiferents;
+        if (productes[i].unitats%3 == 0) descompte -= productes[i].preu;
+        total += productes[i].preu;    
+
+        cin >> compra;
     }
-  }
-  cout<<"Descompte: "<<desc<<endl;
-  cout<<"Total amb descompte: "<<total+desc<<endl;
-}
 
-int main () 
-{
-  int n;
-  cin >> n;
-  vector<producte> v(n);
-  for (int i=0; i<n; ++i) {
-    producte p;
-    cin>>p.codi>>p.preu;
-    v[i]=p;
-  }
-
-  vector<int> u(0);
-  int a;
-  cin>>a;
-  while (a!=-1) { 
-   u.push_back(a);
-   cin>>a;
-  }
-
-  resultats(u, v);
+    cout << "Productes diferents: " << productesDiferents << endl;
+    cout << "Total sense descompte: " << total << endl;
+    cout << "Descompte: " << descompte << endl;
+    cout << "Total amb descompte: " << total + descompte << endl;
 }
