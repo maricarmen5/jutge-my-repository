@@ -129,7 +129,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X82134   Elements de la columna per sota que són menors
 - X84073   Cotxes i distàncies
 ### Examen Final 2022-23 Q1
-- X85080   MercaTona Ofertes 3x2
+- [X85080](https://github.com/maricarmen5/jutge-my-repository/blob/main/X85080.cpp)   MercaTona Ofertes 3x2
 - X50679   Matriu 0
 ### Altres exàmens o activitats
 - P31992   Control C502C
@@ -145,7 +145,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P96965   Reducció de dígits
 - P35537   Nombres creixents
 - P37257   Funció per a tres dígits iguals consecutius
-- P42523   Màxim comú divisor recursiu
+- [P42523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P42523.cpp)   Màxim comú divisor recursiu
 - P62467   Barres (1)
 - P79860   Barres (2)
 - P10694   Barres (3)
@@ -271,3 +271,5 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X18348   Fitxers amb la mateixa extensió
 ### Examen Final (C2) Q1 2023/24
 - [X39544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X39544.cpp)   Suma de parells i senars en una pila
+- [X33722](https://github.com/maricarmen5/jutge-my-repository/tree/main/X33722)   Equilibri parell/senar en arbres binaris
+- [X49526](https://github.com/maricarmen5/jutge-my-repository/tree/main/X49526)   Màxim d'una pila
