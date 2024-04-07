@@ -3,25 +3,22 @@ using namespace std;
 
 bool three_equal_consecutive_digits_aux(int n, int b, int consecutives, int last_digit) 
 {
-    bool ans;
+    bool answer = true;
     
-    if (n == 0) {
-        if (3 <= consecutives) ans = true;
-        else ans = false;
-    } 
+    if (n == 0) answer = false;
     else {
         int digit = n%b;
-        if (digit == last_digit) consecutives++;
+        
+        if (digit == last_digit) ++consecutives;
         else consecutives = 1;
-        if (3 <= consecutives) ans = true;
-        else ans = three_equal_consecutive_digits_aux(n/b, b, consecutives, digit);
+        
+        if (consecutives < 3) answer = three_equal_consecutive_digits_aux(n/b, b, consecutives, digit);
     }
 
-    return ans;
+    return answer;
 }
 
 bool three_equal_consecutive_digits(int n, int b) 
 {
-    bool ans = three_equal_consecutive_digits_aux(n, b, 1, -1);
-    return ans;
+    return three_equal_consecutive_digits_aux(n, b, 1, -1);
 }
