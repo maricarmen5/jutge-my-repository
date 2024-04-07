@@ -147,7 +147,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [P37257](https://github.com/maricarmen5/jutge-my-repository/blob/main/P37257.cpp)   Funció per a tres dígits iguals consecutius
 - [P42523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P42523.cpp)   Màxim comú divisor recursiu
 - P62467   Barres (1)
-- P79860   Barres (2)
+- [P79860](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79860.cpp)   Barres (2)
 - P10694   Barres (3)
 - P81602   Ordenació per selecció
 - P26041   Girant una llista de paraules (1)
