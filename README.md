@@ -144,7 +144,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P51222   Nombre de dígits recursiu
 - P96965   Reducció de dígits
 - P35537   Nombres creixents
-- P37257   Funció per a tres dígits iguals consecutius
+- [P37257](https://github.com/maricarmen5/jutge-my-repository/blob/main/P37257.cpp)   Funció per a tres dígits iguals consecutius
 - [P42523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P42523.cpp)   Màxim comú divisor recursiu
 - P62467   Barres (1)
 - P79860   Barres (2)
