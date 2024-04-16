@@ -173,7 +173,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X31174](https://github.com/maricarmen5/jutge-my-repository/blob/main/X31174.cpp)   Esborrar 0s i 1s d'una pila
 ### Cues
 - X67211   Cua màxima
-- X15861   Esborrar 0s i 1s d'una cua
+- [X15861](https://github.com/maricarmen5/jutge-my-repository/blob/main/X15861.cpp)   Esborrar 0s i 1s d'una cua
 - P90861   Cues d'un supermercat (1)
 - P79292   Cues d'un supermercat (3)
 - P69217   Radix sort
