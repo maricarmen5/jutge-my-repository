@@ -170,7 +170,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P65072   Palíndroms amb piles
 - P97803   Biblioteca
 - P69546   Piles de cromos
-- X31174   Esborrar 0s i 1s d'una pila
+- [X31174](https://github.com/maricarmen5/jutge-my-repository/blob/main/X31174.cpp)   Esborrar 0s i 1s d'una pila
 ### Cues
 - X67211   Cua màxima
 - X15861   Esborrar 0s i 1s d'una cua
