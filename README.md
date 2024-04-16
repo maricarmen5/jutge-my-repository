@@ -148,7 +148,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [P42523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P42523.cpp)   Màxim comú divisor recursiu
 - P62467   Barres (1)
 - [P79860](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79860.cpp)   Barres (2)
-- P10694   Barres (3)
+- [P10694](https://github.com/maricarmen5/jutge-my-repository/blob/main/P10694.cpp)   Barres (3)
 - P81602   Ordenació per selecció
 - P26041   Girant una llista de paraules (1)
 - P92998   Girant una llista de paraules (3)
