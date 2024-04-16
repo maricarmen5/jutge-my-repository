@@ -5,21 +5,16 @@ using namespace std;
 void remove01_aux(stack<int>& p)
 {
     if (not p.empty()) {
-        int n;
-        n = p.top();
+        int top = p.top();
 
         p.pop();
         int size = p.size();
 
         remove01_aux(p);
 
-        if (n == 1) {
-            if (size % 2 == 0) p.push(n);
-        } 
-        else if (n == 0) {
-            if (size % 2 != 0) p.push(n);
-        }
-        else p.push(n);
+        if ((top == 1 and size%2 == 0)
+        or (top == 0 and size%2 != 0)
+        or (top != 0 and top != 1)) p.push(top);
     }
 }
 
