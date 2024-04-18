@@ -263,7 +263,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X51909   Intercalar dues piles
 - X57820   Mètode de la classe cua per a moure el segon element al final
 - X95258   Mètode de llistes per intercanviar (swappejar) el primer i l'últim element
-- X69230   Suma alternada per sota de cada posició d'una pila
+- [X69230](https://github.com/maricarmen5/jutge-my-repository/blob/main/X69230.cpp)   Suma alternada per sota de cada posició d'una pila
 - X48744   Avaluar expressions amb strings
 - X33905   Suma d'una llista
 - X26236   Suma d'una pila
