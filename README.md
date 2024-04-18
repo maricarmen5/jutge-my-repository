@@ -21,7 +21,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P42042   Classificació de caràcters (1)
 - P34279   Suma d'un segon
 - P92613   Arrodoniments
-- P37469   Descomposició horària (1)
+- [P37469](https://github.com/maricarmen5/jutge-my-repository/blob/main/P37469.cpp)   Descomposició horària (1)
 - P61634   Anys de traspàs
 - P51126   Intervals (1)
 - P56559   Intervals (2)
