@@ -6,16 +6,11 @@ int main ()
    int seconds;
    cin >> seconds;
 
-   int h, m, s;
-   int h = seconds/3600;
-   if (h == 0) {
-      m = seconds/60;
-      if (m == 0) s = seconds; 
-      s = seconds%60;
-   }
-   m = (seconds%3600)/60;
-   if (m == 0) s = seconds%3600;
-   s = (seconds%3600)%60;
+   int hours = seconds/3600;
+   seconds %= 3600;
 
-   cout << h << ' ' << m << ' ' << s << endl;
+   int minutes = seconds/60;
+   seconds %= 60;
+
+   cout << hours << ' ' << minutes << ' ' << seconds << endl;
 }
