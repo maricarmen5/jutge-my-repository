@@ -8,12 +8,11 @@ using namespace std;
 
 typedef vector< vector< queue<string> > > Matrix;
 
-void print_queue(queue<string> q, int x)
+void print_queue(queue<string> q, bool depart)
 {
-    int n = q.size();
-    for (int i = 0; i < n; ++i) {
-        if (x == 0) cout << ' ';
-        else cout << endl;
+    while (not q.empty()) {
+        if (depart) cout << endl;
+        else cout << ' ';
         cout << q.front();
         q.pop();
     }
@@ -42,7 +41,6 @@ int main ()
             }
         }
     }
-
     cin.ignore();
 
     queue<string> departs;
@@ -74,16 +72,15 @@ int main ()
 
     cout << "DEPARTS" << endl;
     cout << "-------";
-    print_queue(departs, 1);
+    print_queue(departs, true);
     cout << endl << endl;
 
     cout << "FINAL CONTENTS" << endl;
     cout << "--------------" << endl;
-
     for (int i = 0; i < n; ++i) {
         cout << "queue " << i + 1 << ':';
         for (int j = 0; j < 4; ++j) {
-            print_queue(all_queues[i][j], 0);
+            print_queue(all_queues[i][j], false);
         }
         cout << endl;
     }
