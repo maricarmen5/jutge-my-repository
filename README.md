@@ -175,7 +175,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X67211   Cua màxima
 - [X15861](https://github.com/maricarmen5/jutge-my-repository/blob/main/X15861.cpp)   Esborrar 0s i 1s d'una cua
 - P90861   Cues d'un supermercat (1)
-- P79292   Cues d'un supermercat (3)
+- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
 - P69217   Radix sort
 - X44678   Conversió d'una cua de punts en una pila
 - X36225   Elimina punts en una cua de punts
