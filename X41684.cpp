@@ -5,14 +5,14 @@ using namespace std;
 void update_frequency(list<int>& l, list<int>& frequency, int x, string instruction)
 {
     if (l.empty()) {
-        if ((instruction == "push_back") or (instruction == "push_front")) frequency.push_back(1);
+        if (instruction == "push_back" or instruction == "push_front") frequency.push_back(1);
         else frequency.pop_back();
     }
     else {
         list<int>::iterator it;
         list<int>::iterator it_frequency;
 
-        if ((instruction == "push_back") or (instruction == "pop_back")) {
+        if (instruction == "push_back" or instruction == "pop_back") {
             it = l.end(), --it;
             it_frequency = frequency.end(), --it_frequency;
         }
@@ -22,7 +22,7 @@ void update_frequency(list<int>& l, list<int>& frequency, int x, string instruct
         }
 
         if (x == *it) {
-            if ((instruction == "push_back") or (instruction == "push_front")) ++*it_frequency;
+            if (instruction == "push_back" or instruction == "push_front") ++*it_frequency;
             else --*it_frequency;
         }
         else if (instruction == "push_back") frequency.push_back(1);
@@ -40,23 +40,23 @@ int main ()
     string instruction;
     while (cin >> instruction) {
         int x;
-        list<int>::iterator it;
 
-        if ((instruction == "pop_back") or (instruction == "pop_front")) {
+        if (instruction == "pop_back" or instruction == "pop_front") {
             if (l.size() == 0) cout << "error" << endl;
             else {
-                if (instruction == "pop_back") it = l.end(), --it;
-                else it = l.begin();
-
-                x = *it;
-
-                if (instruction == "pop_back") l.pop_back();
-                else l.pop_front();
+                if (instruction == "pop_back") {
+                    x = l.back();
+                    l.pop_back();
+                }
+                else {
+                    x = l.front();
+                    l.pop_front();
+                }
 
                 update_frequency(l, frequency, x, instruction);
             }
         }
-        else if ((instruction == "push_back") or (instruction == "push_front")) {
+        else if (instruction == "push_back" or instruction == "push_front") {
             cin >> x;
 
             update_frequency(l, frequency, x, instruction);
@@ -66,14 +66,8 @@ int main ()
         }
         else {
             if (frequency.empty()) cout << 0 << endl;
-            else {
-                list<int>::iterator it_frequency;
-
-                if (instruction == "max_equal_left") it_frequency = frequency.begin();
-                else it_frequency = frequency.end(), --it_frequency;
-
-                cout << *it_frequency << endl;
-            }
+            else if (instruction == "max_equal_left") cout << frequency.front() << endl;
+            else cout << frequency.back() << endl;
         }
     }
 }
