@@ -204,7 +204,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - X92251   Suma per sobre o per sota en una pila
 - X82400   Elimina majors suma anteriors en una cua
 - X32815   reverseQueue
-- X41684   Longitud de segments constants als extrems d'una llista
+- [X41684](https://github.com/maricarmen5/jutge-my-repository/blob/main/X41684.cpp)   Longitud de segments constants als extrems d'una llista
 - X33439   Punt mig d'una llista
 - X22019   Arbre de sumes
 - X22410   Arbre d'alçades
