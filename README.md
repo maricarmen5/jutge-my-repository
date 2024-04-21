@@ -59,7 +59,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P97969   Comptant as (1). Igual que el P67454 Comptant as (2)
 - P79817   Potències
 - P33839   Suma de dígits
-- P89872   Segona paraula màxima
+- [P89872](https://github.com/maricarmen5/jutge-my-repository/blob/main/P89872.cpp)   Segona paraula màxima
 ### Fluxos de dades (II)
 - P67454   Comptant as (2)
 - P87523   Hola-adéu
@@ -96,7 +96,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P28318   Files i columnes
 - P26374   Sumes de matrius quadrades
 - P44243   Espirals
-- P16893   És la solució d'un Sudoku?
+- [P16893](https://github.com/maricarmen5/jutge-my-repository/blob/main/P16893.cpp)   És la solució d'un Sudoku?
 - P99555   Magic squares
 ### Recursivitat (FOPR)
 - P12509   Factorial recursiu
