@@ -4,70 +4,40 @@ using namespace std;
 
 typedef vector< vector<int> > Matriu;
 
-bool es_solucio_sudoku(const Matriu& m) 
+bool es_solucio_sudoku(Matriu& m)
 {
-    vector<int> repeticions(9, 0);
+    bool resposta = true;
 
-    bool correcte = true;
+    vector<int> digitsFila(9, -1);
+    vector<int> digitsColumna(9, -1);
+    vector<int> digitsSubmatriu(9, -1);
+
+    int indexMatriu[9] = {0, 3, 6, 30, 33, 36, 60, 63, 66};
+    int indexSubmatriu[9] = {0, 1, 2, 10, 11, 12, 20, 21, 22};
     int i = 0;
-    int j = 0;
-    while (correcte and i < 9) { //  comprova per files
-        j = 0;
-        while (correcte and j < 9) {
-            int n = m[i][j] - 1;
-            ++repeticions[n];
+    while (resposta and i < 9) {
+        int j = 0;
+        while (resposta and j < 9) {
+            int index = indexMatriu[i] + indexSubmatriu[j];
+            ++digitsSubmatriu[m[index/10][index%10] - 1];
+            ++digitsFila[m[i][j] - 1];
+            ++digitsColumna[m[j][i] - 1];
 
-            if (i + 1 < repeticions[n]) correcte = false;
+            if (i != digitsFila[m[i][j] - 1] or
+            i != digitsColumna[m[j][i] - 1] or
+            i != digitsSubmatriu[m[index/10][index%10] - 1]) {
+                resposta = false;
+            }
+
             ++j;
         }
-
         ++i;
     }
 
-    j = 0;
-    while (correcte and j < 9) { //  comprova per columnes
-        i = 0;
-        while (correcte and i < 9) {
-            int n = m[i][j] - 1;
-            ++repeticions[n];
-
-            if (j + 10 < repeticions[n]) correcte = false;
-            ++i;
-        }
-
-        ++j;
-    }
-
-    int submatriu = 0;
-    i = 0;
-    j = 0;
-    while (correcte and submatriu < 9) { // comprova submatrius 3 x 3
-        int fila = 0;
-        while (correcte and fila < 3) {
-            int columna = 0;
-            while (correcte and columna < 3) {
-                int n = m[i][j + columna] - 1;
-                ++repeticions[n];
-
-                if (submatriu + 19 < repeticions[n]) correcte = false;
-                ++columna;
-            }
-
-            ++fila;
-        }
-
-        if (j == 6) {
-            i += 3;
-            j = 0;
-        }
-        else j += 3;
-        ++submatriu;
-    }
-
-    return correcte;
+    return resposta;
 }
 
-int main () 
+int main ()
 {
     Matriu m(9, vector<int>(9));
 
@@ -78,8 +48,8 @@ int main ()
             for (int j = 0; j < 9; ++j) cin >> m[i][j];
         }
 
-        if (es_solucio_sudoku(m)) cout << "si";
-        else cout << "no";
-        cout << endl;
+        bool solucio = es_solucio_sudoku(m);
+        if (solucio) cout << "si" << endl;
+        else cout << "no" << endl;
     }
 }
