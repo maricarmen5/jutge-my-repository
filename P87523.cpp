@@ -3,25 +3,25 @@ using namespace std;
 
 int main () 
 {
-  string sequence;
-  cin >> sequence;
+  int hola = -1;
 
-  bool trobat = false;
+  string sequencia;
+  cin >> sequencia;
+  
   int i = 0;
-  while ((not trobat) and sequence[i + 4] != '.') {
-    if (sequence[i] == 'h' and sequence[i + 1] == 'e') {
-        if (sequence[i + 2] == 'l') {
-            if (sequence[i + 3] == 'l') {
-              if (sequence[i + 4] == 'o') trobat = true;
-              else i += 4;
-            }
-            else i += 3;
-        }
-        else i += 2;
-    }
-    else ++i;
+  bool trobat = false;
+  char caracter = sequencia[i];
+  while ((not trobat) and caracter != '.') {
+    if (caracter == 'h') hola = 0;
+    else if ((caracter == 'o' and hola == 0) or (caracter == 'l' and hola == 1) or (caracter == 'a' and hola == 2)) ++hola;
+    else hola = -1;
+
+    if (hola == 3) trobat= true;
+
+    ++i;
+    caracter = sequencia[i];
   } 
 
-  if (trobat) cout << "hello" << endl;
-  else cout << "bye" << endl;
+  if (trobat) cout << "hola" << endl;
+  else cout << "adeu" << endl;
 }
