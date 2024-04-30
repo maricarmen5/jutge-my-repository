@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Retorna la valencia de |n|, la diferència entre la suma de digits a
-// posició parella i la suma de digits a posicio senar
 int valencia(int n) 
 {
     int resultat = 0;
