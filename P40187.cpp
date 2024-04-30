@@ -1,51 +1,38 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-int ndigits(int x) 
+int digits(int x) 
 {
-    int a = x;
     int n = 0;
 
-    while (a!=0) {
-        a /= 10;
+    while (x != 0) {
+        x /= 10;
         ++n;
     }
-    if (x == 0) n = 1;
 
     return n;
 }
 
-int potencia (int a, int b) 
-{
-    int c = 1;
-    int i = 1;
-    while (i <= b) {
-        c *= a;
-        ++i;
-    }
-
-    return c;
-}
-
 int concatenacio(int a, int b) 
 {
-    int esq = a;
-    int con = b;
-    int i = 0;
-    while (i < ndigits(a)) {
-        int p = esq%10;
-        con += p*(potencia(10, ndigits(b) + i));
+    int i = digits(b);
+    int total_digits = digits(a) + i;
+    int p = pow(10, i);
+    
+    while (i < total_digits) {
+        b += (a%10)*p;
+
         ++i;
-        esq /= 10;
+        a /= 10;
+        p *= 10;
     }
 
-    return con;
+    return b;
 }
 
 int main() 
 {
     int a, b;
-    while (cin >> a >> b) {
-        cout << concatenacio(a,b) << endl;
-    }
+    while (cin >> a >> b) cout << concatenacio(a,b) << endl;
 }
