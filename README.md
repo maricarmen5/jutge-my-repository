@@ -84,7 +84,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P87920   Com la suma dels demés (II)
 - P63414   Comptant freqüències
 - P24301   Concatenació de vectors
-- P99133   Invertint paraules (2)
+- [P99133](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99133.cpp)   Invertint paraules (2)
 ### Vectors (III)
 - P16072   Intersecció de taules
 - P46584   Diferència de taules
