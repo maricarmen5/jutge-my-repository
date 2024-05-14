@@ -108,10 +108,10 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P22467   Primers perfectes
 - P56549   Canvis de base
 ### Vectors i Matrius
-- P87801   Sopa de lletres amb punts
+- [P87801](https://github.com/maricarmen5/jutge-my-repository/blob/main/P87801.cpp)   Sopa de lletres amb punts
 - [P73039](https://github.com/maricarmen5/jutge-my-repository/blob/main/P73039.cpp)   Dòmino
 ### Structs
-- P56358   Sumar i restar un segon
+- [P56358](https://github.com/maricarmen5/jutge-my-repository/blob/main/P56358.cpp)   Sumar i restar un segon
 - P90532   Països i províncies (1)
 - P34438   Països i províncies (2)
 - X13768   Jugadors de bàsquet
