@@ -1,56 +1,41 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+typedef vector< vector<char> > MatriuChar;
+typedef vector< vector<int> > MatriuInt;
 
-typedef vector< vector<char> > Matriu1;
-typedef vector< vector<int> > Matriu2;
-
-int puntuacio(string& s, Matriu1& m1, Matriu2& m2) 
+int obte_puntuacio(string& paraula, MatriuChar& lletra, MatriuInt& puntuacio)
 {
-    int ll;
-    int f = m1.size();
-    int c = m1[0].size();
-    int l = s.length();
-    int p = -1, pmax=-1;
-    for (int i = 0; i <= (f-l); ++i) {
-        for (j=0; j<c; ++j) {
-            if (s[0]==m1[i][j]) {
-                ll=0, p=0;
-                bool trobat=false;
-                while ((ll<l)and(not trobat)) {
-                    // Es llegeix string s horitzontalment fins s(0+ll)
-                    if (s[0+ll]!=m1[i+ll][j]) {
-                        trobat=true;
-                    } else {
-                        p+=m2[i+ll][j];
-                        ++ll;
-                    }
+    int punts = -1;
+
+    for (unsigned int i = 0; i < lletra.size(); ++i) {
+        for (unsigned int j = 0; j < lletra[0].size(); ++j) {
+            if (lletra[i][j] == paraula[0]) {
+                int p = 0;
+                unsigned int x = i;
+                unsigned int y = j;
+                unsigned int z = 0;
+                while (z < paraula.size() and y < lletra[0].size() and lletra[x][y] == paraula[z]) {
+                    p += puntuacio[x][y];
+                    ++y;
+                    ++z;
                 }
-                if (trobat) p=-1;
-                pmax=max(p, pmax);
+                if (z == paraula.size()) punts = max(punts, p);
+
+                p = 0;
+                y = j;
+                z = 0;
+                while (z < paraula.size() and x < lletra.size() and lletra[x][y] == paraula[z]) {
+                    p += puntuacio[x][y];
+                    ++x;
+                    ++z;
+                }
+                if (z == paraula.size()) punts = max(punts, p);
             }
         }
     }
-    for (int j=0; j<=(c-l); ++j) {
-        for (i=0; i<f; ++i) {
-            if (s[0]==m1[i][j]) {
-                ll=0, p=0;
-                bool trobat=false;
-                while ((ll<l)and(not trobat)) {
-                    // Es llegeix string s verticalment fins s(0+ll).
-                    if (s[0+ll]!=m1[i][j+ll]) {
-                        trobat=true;
-                    } else {
-                        p+=m2[i][j+ll];
-                        ++ll;
-                    }
-                }
-                if (trobat) p=-1;
-                pmax=max(p, pmax);
-            }
-        }
-    }
-    return pmax;
+
+    return punts;
 }
 
 int main () 
@@ -59,26 +44,25 @@ int main ()
     while (cin >> f) {
         int c;
         cin >> c;
-        Matriu1 m1(f, vector<char>(c));
+
+        MatriuChar lletra(f, vector<char>(c));
         for (int i = 0; i < f; ++i) {
-            for (int j = 0; j < c; ++j) cin >> m1[i][j];
+            for (int j = 0; j < c; ++j) cin >> lletra[i][j];
         }
-      
-        Matriu2 m2(f, vector<int>(c));
+        MatriuInt puntuacio(f, vector<int>(c));
         for (int i = 0; i < f; ++i) {
-            for (int j = 0; j < c; ++j) cin >> m2[i][j];
+            for (int j = 0; j < c; ++j) cin >> puntuacio[i][j];
         }
-      
-        int p;
-        cin >> p;
-        vector<string> v(p);
-        for (int i = 0; i < p; ++i) cin >> v[i];
         
-        for (int i = 0; i < p; ++i) {
-            int puntuacio = puntuacio(v[i], m1, m2);
-            if (puntuacio < 0) cout << "no";
-            else cout << puntuacio;
-            cout << endl;
+        int t;
+        cin >> t;
+        string paraula;
+        for (int i = 0; i < t; ++i) {
+            cin >> paraula;
+            int punts = obte_puntuacio(paraula, lletra, puntuacio);
+
+            if (punts == -1) cout << "no" << endl;
+            else cout << punts << endl;
         }
     }
 }
