@@ -114,7 +114,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [P56358](https://github.com/maricarmen5/jutge-my-repository/blob/main/P56358.cpp)   Sumar i restar un segon
 - P90532   Països i províncies (1)
 - P34438   Països i províncies (2)
-- X13768   Jugadors de bàsquet
+- [X13768](https://github.com/maricarmen5/jutge-my-repository/blob/main/X13768.cpp)   Jugadors de bàsquet
 ### Algorismes fonamentals
 - P29094   Posició del màxim
 - P81602   Ordenació per selecció
