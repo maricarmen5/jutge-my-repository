@@ -95,7 +95,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - P27498   Matriu transposta
 - P28318   Files i columnes
 - P26374   Sumes de matrius quadrades
-- P44243   Espirals
+- [P44243](https://github.com/maricarmen5/jutge-my-repository/blob/main/P44243.cpp)   Espirals
 - [P16893](https://github.com/maricarmen5/jutge-my-repository/blob/main/P16893.cpp)   És la solució d'un Sudoku?
 - [P99555](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99555.cpp)   Magic squares
 ### Recursivitat (FOPR)
