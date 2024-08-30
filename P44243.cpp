@@ -1,61 +1,45 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
-
 typedef vector< vector<char> > Matriu;
 
-Matriu espiral(const int& a) {
-    Matriu m(a, vector<char>(a, '.'));
-    int cont;
-    int i=a-1;
-    int j=0;
-    int x;
-    int l=1;
-    for (x=a; 0<x; --x) {
-        if (l%4==1) {
-            for (cont=0; cont<x; ++cont) {
-                m[i][j+cont]='X';
-            }
-            --i;
-            j+=x-1;
-        } else if (l%4==2) {
-            for (cont=0; cont<x; ++cont) {
-                m[i-cont][j]='X';
-            }
-            i-=x-1;
-            --j;
-        } else if (l%4==3) {
-            for (cont=0; cont<x; ++cont) {
-                m[i][j-cont]='X';
-            }
-            ++i;
-            j-=x-1;
-        } else {
-            for (cont=0; cont<x; ++cont) {
-                m[i+cont][j]='X';
-            }
-            i+=x-1;
-            ++j;
-        }
-        ++l;
-    }
-    return m;
-}
+int main () 
+{
+    int n;
+    cin >> n;
 
-int main () {
-    int a, i, j;
-    Matriu m;
-    cin>>a;
-    while (a!=0) {
-        m=espiral(a);
-        for (i=0; i<a; ++i) {
-            for (j=0; j<a; ++j) {
-                cout<<m[i][j];
+    while (n != 0) 
+    {
+        Matriu m(n, vector<char>(n, '.'));
+
+        int direccioi[] = {0, -1, 0, 1};
+        int direccioj[] = {1, 0, -1, 0};
+        
+        int posi = n - 1;
+        int posj = 0;
+        for (int costat = n; 0 < costat; --costat)
+        {
+            for (int x = 0; x < costat; ++x) {
+                m[posi][posj] = 'X';
+
+                posi += direccioi[(n - costat)%4];
+                posj += direccioj[(n - costat)%4];
             }
-            cout<<endl;
+            
+            posi += direccioi[(n - costat + 2)%4];
+            posj += direccioj[(n - costat + 2)%4];
+
+            posi += direccioi[(n - costat + 1)%4];
+            posj += direccioj[(n - costat + 1)%4];
         }
+
+        for (int i = 0; i < n; ++i) 
+        {
+            for (int j = 0; j < n; ++j) cout << m[i][j];
+            cout << endl;
+        }
+
         cout << endl;
-        cin >> a;
+        cin >> n;
     }
 }
