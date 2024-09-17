@@ -1,6 +1,7 @@
 Aquest repositori conté les meves solucions als problemes de [Jutge](https://jutge.org/) corresponents a les següents assignatures de l'Escola Politècnica Superior d'Enginyeria de Vilanova i la Geltrú (EPSEVG):
 - Fonaments de programació (FOPR)
 - Programació I (PRO1)
+- Estructura de la informació (ESIN)
 
 **Nota:** aquestes solucions poden NO ser les més òptimes, però s'assegura que el [Jutge](https://jutge.org/) accepta totes amb semàfor verd :green_circle:.
 
@@ -273,3 +274,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X39544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X39544.cpp)   Suma de parells i senars en una pila
 - [X33722](https://github.com/maricarmen5/jutge-my-repository/tree/main/X33722)   Equilibri parell/senar en arbres binaris
 - [X49526](https://github.com/maricarmen5/jutge-my-repository/tree/main/X49526)   Màxim d'una pila
+## ESIN
+### Piles. Cues. Llistes.
+- [X81447](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81447) Fusió dels elements de dues piles ordenades
+### Cues de prioritat
+- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
