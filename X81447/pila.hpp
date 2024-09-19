@@ -59,6 +59,7 @@ void pila<T>::fusiona(const pila<T> &p2) {
                 anterior = anterior->seg;
             }
 
+            ++_mida;
             actual2 = actual2->seg;
         }
         else {
@@ -80,9 +81,8 @@ void pila<T>::fusiona(const pila<T> &p2) {
             anterior->seg = nou;
             anterior = anterior->seg;
         }
-
+     
+        ++_mida;
         actual2 = actual2->seg;
     }
-
-    _mida += p2._mida;
 }
