@@ -282,5 +282,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X24856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X24856) Creació d'una cua circular a partir d'un vector
 - [X51066](https://github.com/maricarmen5/jutge-my-repository/tree/main/X51066) Doble cua (deque) implementada amb una llista doblement encadenada
 - [X90767](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90767) Creació d'una llista a partir d'un vector
+- [X59210](https://github.com/maricarmen5/jutge-my-repository/tree/main/X59210) Creació d'una llista amb fantasma a partir d'un vector
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
