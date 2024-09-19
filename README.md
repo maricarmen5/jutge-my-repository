@@ -280,5 +280,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X81447](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81447) Fusió dels elements de dues piles ordenades
 - [X31110](https://github.com/maricarmen5/jutge-my-repository/tree/main/X31110) Fusió dels elements de dues cues ordenades no circulars
 - [X24856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X24856) Creació d'una cua circular a partir d'un vector
+- [X51066](https://github.com/maricarmen5/jutge-my-repository/tree/main/X51066) Doble cua (deque) implementada amb una llista doblement encadenada
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
