@@ -278,5 +278,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ### Piles. Cues. Llistes.
 - [X58659](https://github.com/maricarmen5/jutge-my-repository/tree/main/X58659) Classe conjunt de parelles d'enters
 - [X81447](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81447) Fusió dels elements de dues piles ordenades
+- [X31110](https://github.com/maricarmen5/jutge-my-repository/tree/main/X31110) Fusió dels elements de dues cues ordenades no circulars
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
