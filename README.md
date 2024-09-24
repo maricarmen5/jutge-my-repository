@@ -285,5 +285,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X59210](https://github.com/maricarmen5/jutge-my-repository/tree/main/X59210) Creació d'una llista amb fantasma a partir d'un vector
 - [X32967](https://github.com/maricarmen5/jutge-my-repository/tree/main/X32967) Creació d'una llista doblement encadenada, circular i amb fantasma a partir d'un vector
 - [X66872](https://github.com/maricarmen5/jutge-my-repository/tree/main/X66872) Separació dels elements de les posicions parells i senars d'una llista simplement encadenada
+- [X67269](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67269) Fusió i suma dels elements de dos llistes simplement encadenades
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
