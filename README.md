@@ -288,5 +288,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X67269](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67269) Fusió i suma dels elements de dos llistes simplement encadenades
 - [X93631](https://github.com/maricarmen5/jutge-my-repository/tree/main/X93631) Fusió i suma dels elements de dos llistes simplement encadenades amb fantasma
 - [X92220](https://github.com/maricarmen5/jutge-my-repository/tree/main/X92220) Fusió i suma dels elements de dos llistes simplement encadenades, circulars i amb fantasma
+- [X99017](https://github.com/maricarmen5/jutge-my-repository/tree/main/X99017) Fusió i suma dels elements de dos llistes doblement encadenades
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
