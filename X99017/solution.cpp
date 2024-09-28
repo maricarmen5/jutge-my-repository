@@ -25,14 +25,12 @@ void Llista::fusiona_suma(Llista &l2, nat n) {
             }
             i = 0;
             implicit = not implicit;
+        } else if (implicit) {
+            _ult = actual;
+            actual = actual->seg;
         } else {
-            if (implicit) {
-                _ult = actual;
-                actual = actual->seg;
-            } else {
-                _ult = l2._prim;
-                l2._prim = l2._prim->seg;
-            }
+            _ult = l2._prim;
+            l2._prim = l2._prim->seg;
         }
     }
     
@@ -48,7 +46,7 @@ void Llista::fusiona_suma(Llista &l2, nat n) {
 
     while (l2._prim != NULL) {
         if (_prim == NULL) _prim = l2._prim;
-        if (_ult != NULL and _ult != l2._prim) {
+        else if (_ult != l2._prim) {
             _ult->seg = l2._prim;
             l2._prim->ant = _ult;
         }
@@ -60,15 +58,10 @@ void Llista::fusiona_suma(Llista &l2, nat n) {
     node* nodesuma = new node;
     nodesuma->info = suma;
     nodesuma->ant = NULL;
-    if (_prim == NULL) {
-        nodesuma->seg = NULL;
-        _prim = nodesuma;
-        _ult = nodesuma;
-    } else {
-        nodesuma->seg = _prim;
-        _prim->ant = nodesuma;
-        _prim = nodesuma;
-    }
+    nodesuma->seg = _prim;
+    if (_prim == NULL) _ult = nodesuma;
+    else nodesuma->seg->ant = nodesuma;
+    _prim = nodesuma;
 
     _long += l2._long + 1;
     l2._long = 0;
