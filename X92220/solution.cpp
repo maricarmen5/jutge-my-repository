@@ -6,34 +6,31 @@ void Llista::fusiona_suma(Llista &l2, nat n) {
     bool implicit = true;
     node* actual = _prim->seg;
     node* anterior = NULL;
-    node* l2prim = l2._prim;
-    l2._prim = l2._prim->seg;
+    node* l2prim = l2._prim->seg;
 
-    while (actual != _prim and l2._prim != l2prim) {
+    while (actual != _prim and l2prim != l2._prim) {
         if (implicit) suma += actual->info;
-        else suma += l2._prim->info;
+        else suma += l2prim->info;
         ++i;
 
         if (i == n) {
             if (implicit) {
                 anterior = actual;
                 actual = actual->seg;
-                anterior->seg = l2._prim;
+                anterior->seg = l2prim;
             } else {
-                anterior = l2._prim;
-                l2._prim = l2._prim->seg;
+                anterior = l2prim;
+                l2prim = l2prim->seg;
                 anterior->seg = actual;
             }
             i = 0;
             implicit = not implicit;
+        } else if (implicit) {
+            anterior = actual;
+            actual = actual->seg;
         } else {
-            if (implicit) {
-                anterior = actual;
-                actual = actual->seg;
-            } else {
-                anterior = l2._prim;
-                l2._prim = l2._prim->seg;
-            }
+            anterior = l2prim;
+            l2prim = l2prim->seg;
         }
     }
 
@@ -47,17 +44,17 @@ void Llista::fusiona_suma(Llista &l2, nat n) {
         actual = actual->seg;
     }
 
-    while (l2._prim != l2prim) {
+    while (l2prim != l2._prim) {
         if (anterior != NULL) {
-            anterior->seg = l2._prim;
+            anterior->seg = l2prim;
             anterior = anterior->seg;
         }
         else {
-            _prim->seg = l2._prim;
-            anterior = l2._prim;
+            _prim->seg = l2prim;
+            anterior = l2prim;
         }
-        suma += l2._prim->info;
-        l2._prim = l2._prim->seg;
+        suma += l2prim->info;
+        l2prim = l2prim->seg;
     }
 
     node* nodesuma = new node;
