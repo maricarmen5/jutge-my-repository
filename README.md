@@ -292,7 +292,13 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X67932](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67932) Fusió i suma dels elements de dos llistes doblement encadenades, circulars i amb fantasma
 - [X25844](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25844) Duplica els elements d'una pila amb sumes parcials
 - [X18343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X18343.hpp) Ordenació eficient d'una llista doblement encadenada, no circular i sense fantasma
+### Activitat 1
+- [X57859](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57859.hpp) Elimina majors suma anteriors en una cua no circular
 ### Arbres
 - [X25271](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25271) Comprovar la propietat 'Suma dels fills' en un arbre binari
+- [X81805](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81805) Generar l'arbre de sumes d'un arbre binari
+- [X21635](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21635.hpp) Arbre binari. Comprovar la propietat "suma dels fills"
+- [X52404](https://github.com/maricarmen5/jutge-my-repository/blob/main/X52404.hpp) Arbre binari. Calcula arbre amb sumes
+- [X49037](https://github.com/maricarmen5/jutge-my-repository/blob/main/X49037.hpp) Arbre binari. Elements del nivell n-èssim
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
