@@ -295,6 +295,9 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X41943](https://github.com/maricarmen5/jutge-my-repository/tree/main/X41943) Duplicació dels positius i eliminació dels negatius d'una llista simplement encadenada
 - [X97099](https://github.com/maricarmen5/jutge-my-repository/blob/main/X97099.hpp) Duplica els elements d'una llista simplement encadenada i circular deixant-la capicua
 ### Activitat 1
+- [X50741](https://github.com/maricarmen5/jutge-my-repository/tree/main/X50741) Duplicació dels parells i eliminació dels senars d'una llista doblement encadenada
+- [X90856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90856) Inversió dels elements d'una llista doblement encadenada, circular i amb fantasma
+- [X18838](https://github.com/maricarmen5/jutge-my-repository/tree/main/X18838) Inversió dels elements d'una llista simplement encadenada amb fantasma
 - [X57859](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57859.hpp) Elimina majors suma anteriors en una cua no circular
 ### Arbres
 - [X25271](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25271) Comprovar la propietat 'Suma dels fills' en un arbre binari
@@ -310,6 +313,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X23363](https://github.com/maricarmen5/jutge-my-repository/blob/main/X23363.hpp) Arbre general. Modifica arbre amb altures de cada subarbre.
 - [X72544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X72544.hpp) Arbre general. Crea fills amb les sumes dels elements de cada camí
 - [X83764](https://github.com/maricarmen5/jutge-my-repository/blob/main/X83764.hpp) Arbre general. Elimina nodes de grau 0.
+- [X75469](https://github.com/maricarmen5/jutge-my-repository/blob/main/X75469.hpp) Arbre binari. Crea arbre binari complert de n nivells
 - [X57825](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57825.hpp) Arbre general. Modifica arbre amb el seu simètric.
 - [X29639](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29639.hpp) Arbre general. Sumes dels elements de cada nivell
 - [X54738](https://github.com/maricarmen5/jutge-my-repository/blob/main/X54738.hpp) Arbre general és un arbre compta graus?
