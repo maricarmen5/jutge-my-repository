@@ -292,6 +292,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X67932](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67932) Fusió i suma dels elements de dos llistes doblement encadenades, circulars i amb fantasma
 - [X25844](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25844) Duplica els elements d'una pila amb sumes parcials
 - [X18343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X18343.hpp) Ordenació eficient d'una llista doblement encadenada, no circular i sense fantasma
+- [X41943](https://github.com/maricarmen5/jutge-my-repository/tree/main/X41943) Duplicació dels positius i eliminació dels negatius d'una llista simplement encadenada
+- [X97099](https://github.com/maricarmen5/jutge-my-repository/blob/main/X97099.hpp) Duplica els elements d'una llista simplement encadenada i circular deixant-la capicua
 ### Activitat 1
 - [X57859](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57859.hpp) Elimina majors suma anteriors en una cua no circular
 ### Arbres
@@ -300,5 +302,17 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X21635](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21635.hpp) Arbre binari. Comprovar la propietat "suma dels fills"
 - [X52404](https://github.com/maricarmen5/jutge-my-repository/blob/main/X52404.hpp) Arbre binari. Calcula arbre amb sumes
 - [X49037](https://github.com/maricarmen5/jutge-my-repository/blob/main/X49037.hpp) Arbre binari. Elements del nivell n-èssim
+- [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
+- [X39717](https://github.com/maricarmen5/jutge-my-repository/tree/main/X39717) Arbre binari enfilat. Recorregut en preordre
+- [X88982](https://github.com/maricarmen5/jutge-my-repository/blob/main/X88982.hpp) Arbre general és un arbre suma?
+- [X57442](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57442.hpp) Arbre general. Modifica arbre amb suma fills.
+- [X10656](https://github.com/maricarmen5/jutge-my-repository/blob/main/X10656.hpp) Arbre general. Quants nodes de grau n té?
+- [X23363](https://github.com/maricarmen5/jutge-my-repository/blob/main/X23363.hpp) Arbre general. Modifica arbre amb altures de cada subarbre.
+- [X72544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X72544.hpp) Arbre general. Crea fills amb les sumes dels elements de cada camí
+- [X83764](https://github.com/maricarmen5/jutge-my-repository/blob/main/X83764.hpp) Arbre general. Elimina nodes de grau 0.
+- [X57825](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57825.hpp) Arbre general. Modifica arbre amb el seu simètric.
+- [X29639](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29639.hpp) Arbre general. Sumes dels elements de cada nivell
+- [X54738](https://github.com/maricarmen5/jutge-my-repository/blob/main/X54738.hpp) Arbre general és un arbre compta graus?
+- [X84513](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84513.hpp) Arbre general. Modifica arbre amb màxim fills.
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
