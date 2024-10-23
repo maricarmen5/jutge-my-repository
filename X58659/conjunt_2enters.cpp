@@ -176,10 +176,12 @@ bool cj_2enters::conte(pair<int, int> pe) const {
     return trobat;
 }
 
-pair<int, int> cj_2enters::max() const {
+// Pre: el conjunt té com a mínim un element
+pair<int, int> cj_2enters::max() const { 
     return _conj[_card-1];
 }
 
+// Pre: el conjunt té com a mínim un element
 pair<int, int> cj_2enters::min() const {
     return _conj[0];
 }
