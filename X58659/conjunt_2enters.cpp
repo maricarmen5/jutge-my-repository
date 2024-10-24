@@ -194,7 +194,6 @@ bool cj_2enters::operator==(const cj_2enters& B) const {
     bool iguals = true;
 
     if (_card != B._card) iguals = false;
-
     int i = 0;
     while (iguals and i < _card) {
         if (_conj[i] != B._conj[i]) iguals = false;
