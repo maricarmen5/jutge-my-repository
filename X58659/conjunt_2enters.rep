@@ -1,6 +1,0 @@
-static const int MAX = 20000;
-
-int _card;
-pair<int, int> _conj[MAX];
-
-int cerca_dicotomica(pair<int, int> pe) const;

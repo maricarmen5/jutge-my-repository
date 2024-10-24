@@ -1,0 +1,12 @@
+struct node {
+	pair<int, int> info;
+	node* seg;
+};
+
+node* _prim;
+node* _ult;
+int _card;
+
+void copia_conjunt(node* actual);
+void destrueix_conjunt(node* actual);
+node* intersectar_aux(node* actual, node* actualB);
