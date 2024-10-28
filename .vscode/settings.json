@@ -58,6 +58,7 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
     "*.rep": "cpp",
-    "new": "cpp"
+    "new": "cpp",
+    "iostream": "cpp"
   }
 }

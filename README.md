@@ -318,5 +318,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X29639](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29639.hpp) Arbre general. Sumes dels elements de cada nivell
 - [X54738](https://github.com/maricarmen5/jutge-my-repository/blob/main/X54738.hpp) Arbre general és un arbre compta graus?
 - [X84513](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84513.hpp) Arbre general. Modifica arbre amb màxim fills.
+### Activitat 2
+- [X64420](https://github.com/maricarmen5/jutge-my-repository/blob/main/X64420.hpp) Arbre binari. Calcula arbre amb màxims
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
