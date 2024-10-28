@@ -305,7 +305,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X21635](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21635.hpp) Arbre binari. Comprovar la propietat "suma dels fills"
 - [X52404](https://github.com/maricarmen5/jutge-my-repository/blob/main/X52404.hpp) Arbre binari. Calcula arbre amb sumes
 - [X49037](https://github.com/maricarmen5/jutge-my-repository/blob/main/X49037.hpp) Arbre binari. Elements del nivell n-èssim
-- [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
 - [X39717](https://github.com/maricarmen5/jutge-my-repository/tree/main/X39717) Arbre binari enfilat. Recorregut en preordre
 - [X88982](https://github.com/maricarmen5/jutge-my-repository/blob/main/X88982.hpp) Arbre general és un arbre suma?
 - [X57442](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57442.hpp) Arbre general. Modifica arbre amb suma fills.
@@ -320,5 +319,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X84513](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84513.hpp) Arbre general. Modifica arbre amb màxim fills.
 ### Activitat 2
 - [X64420](https://github.com/maricarmen5/jutge-my-repository/blob/main/X64420.hpp) Arbre binari. Calcula arbre amb màxims
+- [X34743](https://github.com/maricarmen5/jutge-my-repository/blob/main/X34743.hpp) Arbre binari. Calcula arbre amb factors d'equilibri
+- [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
+- [X50166](https://github.com/maricarmen5/jutge-my-repository/blob/main/X50166.hpp) Arbre binari. Calcula arbre simètric
 ### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
