@@ -325,7 +325,12 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X34743](https://github.com/maricarmen5/jutge-my-repository/blob/main/X34743.hpp) Arbre binari. Calcula arbre amb factors d'equilibri
 - [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
 - [X50166](https://github.com/maricarmen5/jutge-my-repository/blob/main/X50166.hpp) Arbre binari. Calcula arbre simètric
+##### Examen Parcial 2024-2025
+- [U66160](https://github.com/maricarmen5/jutge-my-repository/blob/main/U66160.hpp) Llista circular. Llegenda de Josephus
+- [Z44437](https://github.com/maricarmen5/jutge-my-repository/blob/main/Z44437.hpp) Arbre general. Compta els elements de cada nivell
 ##### Diccionaris: BSTs i AVLs
 - [P94818](https://github.com/maricarmen5/jutge-my-repository/blob/main/P94818.cpp) Inserint en un arbre de cerca
+- [P98436](https://github.com/maricarmen5/jutge-my-repository/blob/main/P98436.cpp) Trees - Recursive traversal
+- [P92765](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92765.cpp) Arbres - Buscant en un arbre de cerca
 ##### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
