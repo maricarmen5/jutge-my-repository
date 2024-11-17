@@ -1,0 +1,28 @@
+5
+quants
+consulta 0
+consulta 5
+min
+max
+iessim 1
+elimina 0
+elimina 5
+print
+----------
+
+consulta 0
+consulta 1
+insereix 1
+consulta 1
+insereix 1
+print
+print_interval 0 2
+print_interval -3 -2
+print_interval 2 3
+min
+max
+iessim 1
+elimina 1
+consulta 1
+elimina 1
+print

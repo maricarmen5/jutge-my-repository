@@ -1,0 +1,44 @@
+5 -3 8 2 -1 7 -7 -6
+quants
+consulta -3
+consulta -4
+consulta 6
+consulta 9
+insereix -4
+consulta -4
+insereix 6
+consulta 6
+insereix 9
+consulta 9
+insereix 8
+print
+print_interval -2 6
+min
+max
+iessim 1
+iessim 2
+iessim 5
+iessim 7
+iessim 11
+elimina -3
+consulta -3
+elimina -7
+consulta -7
+elimina 7
+consulta 7
+elimina 7
+print
+min
+max
+iessim 1
+iessim 2
+iessim 5
+elimina -6
+elimina 5
+elimina 9
+print
+min
+max
+iessim 1
+iessim 2
+iessim 4
