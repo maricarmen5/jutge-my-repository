@@ -332,5 +332,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [P94818](https://github.com/maricarmen5/jutge-my-repository/blob/main/P94818.cpp) Inserint en un arbre de cerca
 - [P98436](https://github.com/maricarmen5/jutge-my-repository/blob/main/P98436.cpp) Trees - Recursive traversal
 - [P92765](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92765.cpp) Arbres - Buscant en un arbre de cerca
+- [X68607](https://github.com/maricarmen5/jutge-my-repository/blob/main/X68607.hpp) Classe diccionari (I)
 ##### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
