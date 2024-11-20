@@ -5,140 +5,68 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 
 **Nota:** aquestes solucions poden NO ser les més òptimes, però s'assegura que el [Jutge](https://jutge.org/) accepta totes amb semàfor verd :green_circle:.
 
-## FOPR
-##### Primers Exercicis
-- P57548   Suma de dos enters
-- P41221   Suma de tres enters
-- P48107   Divisió entera i residu de dos naturals
-- P62421   Tres paraules
-- X17462   Multiplicació de dos enters
-- X29267   Àrea i circumferència d'un cercle
-##### Seqüencial i primeres alternatives
-- P56118   Màxim de dos enters
-- P90615   Màxim de tres enters
-- P15613   Temperatures
-- [P92351](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92351.cpp)   Divisió entera i residu d'un enter amb un natural
-- P98960   Majúscules i minúscules
-- P42042   Classificació de caràcters (1)
-- P34279   Suma d'un segon
-- P92613   Arrodoniments
-- [P37469](https://github.com/maricarmen5/jutge-my-repository/blob/main/P37469.cpp)   Descomposició horària (1)
-- P61634   Anys de traspàs
-- P51126   Intervals (1)
-- P56559   Intervals (2)
-- [P89265](https://github.com/maricarmen5/jutge-my-repository/blob/main/P89265.cpp)   Intervals (3)
-- X60152   Prova d'alcoholèmia
-- X36683   Calculadora de Volums
-##### Condicional i bucles
-- P37500   Primers nombres
-- [P59875](https://github.com/maricarmen5/jutge-my-repository/blob/main/P59875.cpp)   Cap avall
-- P97156   Nombres en un interval
-- P36668   Suma de quadrats
-- P69277   Primers cubs
-- P31170   Taula de multiplicar
-- X26478   Compte enrere
-##### Funcions
-- P95401   Funció per als anys de traspàs
-- P96275   Valor absolut
-- P65437   Intercanvi
-- [P58459](https://github.com/maricarmen5/jutge-my-repository/blob/main/P58459.cpp)   Dates vàlides
-- P77686   Capicues
-- P34091   Nombres perfectes
-- P95972   Suma de divisors
-- P18777   Dia de la setmana
-##### Esquemes iteratius
-- P29973   Triangle
-- P72484   Rombe
-- P24080   Quadrats (1)
-- P39225   I-èsim (1)
-- P61061   Producte de dígits
-- [P71753](https://github.com/maricarmen5/jutge-my-repository/blob/main/P71753.cpp)   Màxim de cada seqüència
-- P80660   La seqüència de Collatz
-##### Fluxos de dades (I)
-- P75149   Buscant una a
-- P89078   Primera posició
-- P97969   Comptant as (1). Igual que el P67454 Comptant as (2)
-- P79817   Potències
-- P33839   Suma de dígits
-- [P89872](https://github.com/maricarmen5/jutge-my-repository/blob/main/P89872.cpp)   Segona paraula màxima
-##### Fluxos de dades (II)
-- P67454   Comptant as (2)
-- [P87523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P87523.cpp)   Hola-adéu
-- P73501   Parells creixents
-- P23001   Paraules consecutives repetides
-- P35957   Dígits centrals
-- P71753   Màxim de cada seqüència
-##### Examen Parcial 2020-21 Q2
-- [P19564](https://github.com/maricarmen5/jutge-my-repository/blob/main/P19564.cpp)   Control C301B
-- [P50471](https://github.com/maricarmen5/jutge-my-repository/blob/main/P50471.cpp)   Control C402F
-##### Examen Parcial 2022-23 Q1
-- X44527   Lletra X
-- X48588   Hi ha dos nombres triple-3?
-##### Vectors (I)
-- P14130   Igual a l'últim
-- P78548   Invertint paraules (1)
-- P11725   Cerca seqüencial en una taula
-- P71310   Producte escalar
-- P67268   Inversió de seqüències
-##### Vectors (II)
-- P50497   És un palíndrom?
-- P87920   Com la suma dels demés (II)
-- P63414   Comptant freqüències
-- P24301   Concatenació de vectors
-- [P99133](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99133.cpp)   Invertint paraules (2)
-##### Vectors (III)
-- P16072   Intersecció de taules
-- P46584   Diferència de taules
-- P70093   Fusió de taules
-- P66257   L'element més freqüent
-##### Matrius
-- P61473   Matriu simètrica
-- P27498   Matriu transposta
-- P28318   Files i columnes
-- P26374   Sumes de matrius quadrades
-- [P44243](https://github.com/maricarmen5/jutge-my-repository/blob/main/P44243.cpp)   Espirals
-- [P16893](https://github.com/maricarmen5/jutge-my-repository/blob/main/P16893.cpp)   És la solució d'un Sudoku?
-- [P99555](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99555.cpp)   Magic squares
-##### Recursivitat (FOPR)
-- P12509   Factorial recursiu
-- P42523   Màxim comú divisor recursiu
-- P61384   Factorial doble recursiu
-- P51222   Nombre de dígits recursiu
-- P35537   Nombres creixents
-- P61930   Múltiples de tres
-- P22467   Primers perfectes
-- P56549   Canvis de base
-##### Vectors i Matrius
-- [P87801](https://github.com/maricarmen5/jutge-my-repository/blob/main/P87801.cpp)   Sopa de lletres amb punts
-- [P73039](https://github.com/maricarmen5/jutge-my-repository/blob/main/P73039.cpp)   Dòmino
-##### Structs
-- [P56358](https://github.com/maricarmen5/jutge-my-repository/blob/main/P56358.cpp)   Sumar i restar un segon
-- P90532   Països i províncies (1)
-- P34438   Països i províncies (2)
-- [X13768](https://github.com/maricarmen5/jutge-my-repository/blob/main/X13768.cpp)   Jugadors de bàsquet
-##### Algorismes fonamentals
-- P29094   Posició del màxim
-- P81602   Ordenació per selecció
-- P98179   Inserció en taula ordenada
-- P41412   Ordenació per inserció
-- P81966   Cerca dicotòmica
-- P66257   L'element més freqüent
-##### Examen Final 2020-21 Q2
-- P58633   Control C403C
-- P67340   F010B. Alfils amenaçadors
-##### Examen Final 2021-22 Q1
-- X82134   Elements de la columna per sota que són menors
-- X84073   Cotxes i distàncies
-##### Examen Final 2022-23 Q1
-- [X85080](https://github.com/maricarmen5/jutge-my-repository/blob/main/X85080.cpp)   MercaTona Ofertes 3x2
-- X50679   Matriu 0
-##### Altres exàmens o activitats
-- P31992   Control C502C
-- P38685   Control C403A - Activitat 2
-- [P40187](https://github.com/maricarmen5/jutge-my-repository/blob/main/P40187.cpp)   Control C302C - Parcial
-- P94801   Control C203C - Parcial
-- P57047   Control C502B
-- P84528   F007A. Juguem a barcos? - Final
+## ESIN
+##### Piles. Cues. Llistes.
+- [X58659](https://github.com/maricarmen5/jutge-my-repository/tree/main/X58659) Classe conjunt de parelles d'enters
+- [X81447](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81447) Fusió dels elements de dues piles ordenades
+- [X31110](https://github.com/maricarmen5/jutge-my-repository/tree/main/X31110) Fusió dels elements de dues cues ordenades no circulars
+- [X24856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X24856) Creació d'una cua circular a partir d'un vector
+- [X51066](https://github.com/maricarmen5/jutge-my-repository/tree/main/X51066) Doble cua (deque) implementada amb una llista doblement encadenada
+- [X90767](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90767) Creació d'una llista a partir d'un vector
+- [X59210](https://github.com/maricarmen5/jutge-my-repository/tree/main/X59210) Creació d'una llista amb fantasma a partir d'un vector
+- [X32967](https://github.com/maricarmen5/jutge-my-repository/tree/main/X32967) Creació d'una llista doblement encadenada, circular i amb fantasma a partir d'un vector
+- [X66872](https://github.com/maricarmen5/jutge-my-repository/tree/main/X66872) Separació dels elements de les posicions parells i senars d'una llista simplement encadenada
+- [X67269](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67269) Fusió i suma dels elements de dos llistes simplement encadenades
+- [X93631](https://github.com/maricarmen5/jutge-my-repository/tree/main/X93631) Fusió i suma dels elements de dos llistes simplement encadenades amb fantasma
+- [X92220](https://github.com/maricarmen5/jutge-my-repository/tree/main/X92220) Fusió i suma dels elements de dos llistes simplement encadenades, circulars i amb fantasma
+- [X99017](https://github.com/maricarmen5/jutge-my-repository/tree/main/X99017) Fusió i suma dels elements de dos llistes doblement encadenades
+- [X67932](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67932) Fusió i suma dels elements de dos llistes doblement encadenades, circulars i amb fantasma
+- [X25844](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25844) Duplica els elements d'una pila amb sumes parcials
+- [X18343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X18343.hpp) Ordenació eficient d'una llista doblement encadenada, no circular i sense fantasma
+- [X41943](https://github.com/maricarmen5/jutge-my-repository/tree/main/X41943) Duplicació dels positius i eliminació dels negatius d'una llista simplement encadenada
+- [X97099](https://github.com/maricarmen5/jutge-my-repository/blob/main/X97099.hpp) Duplica els elements d'una llista simplement encadenada i circular deixant-la capicua
+##### Activitat 1
+- [X50741](https://github.com/maricarmen5/jutge-my-repository/tree/main/X50741) Duplicació dels parells i eliminació dels senars d'una llista doblement encadenada
+- [X90856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90856) Inversió dels elements d'una llista doblement encadenada, circular i amb fantasma
+- [X18838](https://github.com/maricarmen5/jutge-my-repository/tree/main/X18838) Inversió dels elements d'una llista simplement encadenada amb fantasma
+- [X57859](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57859.hpp) Elimina majors suma anteriors en una cua no circular
+##### Arbres
+- [X25271](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25271) Comprovar la propietat 'Suma dels fills' en un arbre binari
+- [X81805](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81805) Generar l'arbre de sumes d'un arbre binari
+- [X21635](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21635.hpp) Arbre binari. Comprovar la propietat "suma dels fills"
+- [X52404](https://github.com/maricarmen5/jutge-my-repository/blob/main/X52404.hpp) Arbre binari. Calcula arbre amb sumes
+- [X49037](https://github.com/maricarmen5/jutge-my-repository/blob/main/X49037.hpp) Arbre binari. Elements del nivell n-èssim
+- [X39717](https://github.com/maricarmen5/jutge-my-repository/tree/main/X39717) Arbre binari enfilat. Recorregut en preordre
+- [X88982](https://github.com/maricarmen5/jutge-my-repository/blob/main/X88982.hpp) Arbre general és un arbre suma?
+- [X57442](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57442.hpp) Arbre general. Modifica arbre amb suma fills.
+- [X10656](https://github.com/maricarmen5/jutge-my-repository/blob/main/X10656.hpp) Arbre general. Quants nodes de grau n té?
+- [X23363](https://github.com/maricarmen5/jutge-my-repository/blob/main/X23363.hpp) Arbre general. Modifica arbre amb altures de cada subarbre.
+- [X72544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X72544.hpp) Arbre general. Crea fills amb les sumes dels elements de cada camí
+- [X83764](https://github.com/maricarmen5/jutge-my-repository/blob/main/X83764.hpp) Arbre general. Elimina nodes de grau 0.
+- [X75469](https://github.com/maricarmen5/jutge-my-repository/blob/main/X75469.hpp) Arbre binari. Crea arbre binari complert de n nivells
+- [X57825](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57825.hpp) Arbre general. Modifica arbre amb el seu simètric.
+- [X29639](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29639.hpp) Arbre general. Sumes dels elements de cada nivell
+- [X54738](https://github.com/maricarmen5/jutge-my-repository/blob/main/X54738.hpp) Arbre general és un arbre compta graus?
+- [X84513](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84513.hpp) Arbre general. Modifica arbre amb màxim fills.
+- [X22358](https://github.com/maricarmen5/jutge-my-repository/blob/main/X22358.hpp) Arbre general. Crea fills amb els màxims dels elements de cada camí
+- [X17833](https://github.com/maricarmen5/jutge-my-repository/blob/main/X17833.hpp) Arbre general. Sumes dels elements de cada camí
+##### Activitat 2
+- [X64420](https://github.com/maricarmen5/jutge-my-repository/blob/main/X64420.hpp) Arbre binari. Calcula arbre amb màxims
+- [X34743](https://github.com/maricarmen5/jutge-my-repository/blob/main/X34743.hpp) Arbre binari. Calcula arbre amb factors d'equilibri
+- [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
+- [X50166](https://github.com/maricarmen5/jutge-my-repository/blob/main/X50166.hpp) Arbre binari. Calcula arbre simètric
+##### Examen Parcial 2024-2025
+- [U66160](https://github.com/maricarmen5/jutge-my-repository/blob/main/U66160.hpp) Llista circular. Llegenda de Josephus
+- [Z44437](https://github.com/maricarmen5/jutge-my-repository/blob/main/Z44437.hpp) Arbre general. Compta els elements de cada nivell
+##### Diccionaris: BSTs i AVLs
+- [P94818](https://github.com/maricarmen5/jutge-my-repository/blob/main/P94818.cpp) Inserint en un arbre de cerca
+- [P98436](https://github.com/maricarmen5/jutge-my-repository/blob/main/P98436.cpp) Trees - Recursive traversal
+- [P92765](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92765.cpp) Arbres - Buscant en un arbre de cerca
+- [X68607](https://github.com/maricarmen5/jutge-my-repository/blob/main/X68607.hpp) Classe diccionari (I)
+- [X90310](https://github.com/maricarmen5/jutge-my-repository/blob/main/X90310.hpp) Inserir i comptar claus repetides en un BST
+- [X67064](https://github.com/maricarmen5/jutge-my-repository/blob/main/X67064.hpp) Segona clau d’un diccionari BST
+##### Cues de prioritat
+- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
@@ -275,65 +203,137 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X39544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X39544.cpp)   Suma de parells i senars en una pila
 - [X33722](https://github.com/maricarmen5/jutge-my-repository/tree/main/X33722)   Equilibri parell/senar en arbres binaris
 - [X49526](https://github.com/maricarmen5/jutge-my-repository/tree/main/X49526)   Màxim d'una pila
-## ESIN
-##### Piles. Cues. Llistes.
-- [X58659](https://github.com/maricarmen5/jutge-my-repository/tree/main/X58659) Classe conjunt de parelles d'enters
-- [X81447](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81447) Fusió dels elements de dues piles ordenades
-- [X31110](https://github.com/maricarmen5/jutge-my-repository/tree/main/X31110) Fusió dels elements de dues cues ordenades no circulars
-- [X24856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X24856) Creació d'una cua circular a partir d'un vector
-- [X51066](https://github.com/maricarmen5/jutge-my-repository/tree/main/X51066) Doble cua (deque) implementada amb una llista doblement encadenada
-- [X90767](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90767) Creació d'una llista a partir d'un vector
-- [X59210](https://github.com/maricarmen5/jutge-my-repository/tree/main/X59210) Creació d'una llista amb fantasma a partir d'un vector
-- [X32967](https://github.com/maricarmen5/jutge-my-repository/tree/main/X32967) Creació d'una llista doblement encadenada, circular i amb fantasma a partir d'un vector
-- [X66872](https://github.com/maricarmen5/jutge-my-repository/tree/main/X66872) Separació dels elements de les posicions parells i senars d'una llista simplement encadenada
-- [X67269](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67269) Fusió i suma dels elements de dos llistes simplement encadenades
-- [X93631](https://github.com/maricarmen5/jutge-my-repository/tree/main/X93631) Fusió i suma dels elements de dos llistes simplement encadenades amb fantasma
-- [X92220](https://github.com/maricarmen5/jutge-my-repository/tree/main/X92220) Fusió i suma dels elements de dos llistes simplement encadenades, circulars i amb fantasma
-- [X99017](https://github.com/maricarmen5/jutge-my-repository/tree/main/X99017) Fusió i suma dels elements de dos llistes doblement encadenades
-- [X67932](https://github.com/maricarmen5/jutge-my-repository/tree/main/X67932) Fusió i suma dels elements de dos llistes doblement encadenades, circulars i amb fantasma
-- [X25844](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25844) Duplica els elements d'una pila amb sumes parcials
-- [X18343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X18343.hpp) Ordenació eficient d'una llista doblement encadenada, no circular i sense fantasma
-- [X41943](https://github.com/maricarmen5/jutge-my-repository/tree/main/X41943) Duplicació dels positius i eliminació dels negatius d'una llista simplement encadenada
-- [X97099](https://github.com/maricarmen5/jutge-my-repository/blob/main/X97099.hpp) Duplica els elements d'una llista simplement encadenada i circular deixant-la capicua
-##### Activitat 1
-- [X50741](https://github.com/maricarmen5/jutge-my-repository/tree/main/X50741) Duplicació dels parells i eliminació dels senars d'una llista doblement encadenada
-- [X90856](https://github.com/maricarmen5/jutge-my-repository/tree/main/X90856) Inversió dels elements d'una llista doblement encadenada, circular i amb fantasma
-- [X18838](https://github.com/maricarmen5/jutge-my-repository/tree/main/X18838) Inversió dels elements d'una llista simplement encadenada amb fantasma
-- [X57859](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57859.hpp) Elimina majors suma anteriors en una cua no circular
-##### Arbres
-- [X25271](https://github.com/maricarmen5/jutge-my-repository/tree/main/X25271) Comprovar la propietat 'Suma dels fills' en un arbre binari
-- [X81805](https://github.com/maricarmen5/jutge-my-repository/tree/main/X81805) Generar l'arbre de sumes d'un arbre binari
-- [X21635](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21635.hpp) Arbre binari. Comprovar la propietat "suma dels fills"
-- [X52404](https://github.com/maricarmen5/jutge-my-repository/blob/main/X52404.hpp) Arbre binari. Calcula arbre amb sumes
-- [X49037](https://github.com/maricarmen5/jutge-my-repository/blob/main/X49037.hpp) Arbre binari. Elements del nivell n-èssim
-- [X39717](https://github.com/maricarmen5/jutge-my-repository/tree/main/X39717) Arbre binari enfilat. Recorregut en preordre
-- [X88982](https://github.com/maricarmen5/jutge-my-repository/blob/main/X88982.hpp) Arbre general és un arbre suma?
-- [X57442](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57442.hpp) Arbre general. Modifica arbre amb suma fills.
-- [X10656](https://github.com/maricarmen5/jutge-my-repository/blob/main/X10656.hpp) Arbre general. Quants nodes de grau n té?
-- [X23363](https://github.com/maricarmen5/jutge-my-repository/blob/main/X23363.hpp) Arbre general. Modifica arbre amb altures de cada subarbre.
-- [X72544](https://github.com/maricarmen5/jutge-my-repository/blob/main/X72544.hpp) Arbre general. Crea fills amb les sumes dels elements de cada camí
-- [X83764](https://github.com/maricarmen5/jutge-my-repository/blob/main/X83764.hpp) Arbre general. Elimina nodes de grau 0.
-- [X75469](https://github.com/maricarmen5/jutge-my-repository/blob/main/X75469.hpp) Arbre binari. Crea arbre binari complert de n nivells
-- [X57825](https://github.com/maricarmen5/jutge-my-repository/blob/main/X57825.hpp) Arbre general. Modifica arbre amb el seu simètric.
-- [X29639](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29639.hpp) Arbre general. Sumes dels elements de cada nivell
-- [X54738](https://github.com/maricarmen5/jutge-my-repository/blob/main/X54738.hpp) Arbre general és un arbre compta graus?
-- [X84513](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84513.hpp) Arbre general. Modifica arbre amb màxim fills.
-- [X22358](https://github.com/maricarmen5/jutge-my-repository/blob/main/X22358.hpp) Arbre general. Crea fills amb els màxims dels elements de cada camí
-- [X17833](https://github.com/maricarmen5/jutge-my-repository/blob/main/X17833.hpp) Arbre general. Sumes dels elements de cada camí
-##### Activitat 2
-- [X64420](https://github.com/maricarmen5/jutge-my-repository/blob/main/X64420.hpp) Arbre binari. Calcula arbre amb màxims
-- [X34743](https://github.com/maricarmen5/jutge-my-repository/blob/main/X34743.hpp) Arbre binari. Calcula arbre amb factors d'equilibri
-- [X53343](https://github.com/maricarmen5/jutge-my-repository/blob/main/X53343.hpp) Arbre binari. Calcula arbre amb factors de pes
-- [X50166](https://github.com/maricarmen5/jutge-my-repository/blob/main/X50166.hpp) Arbre binari. Calcula arbre simètric
-##### Examen Parcial 2024-2025
-- [U66160](https://github.com/maricarmen5/jutge-my-repository/blob/main/U66160.hpp) Llista circular. Llegenda de Josephus
-- [Z44437](https://github.com/maricarmen5/jutge-my-repository/blob/main/Z44437.hpp) Arbre general. Compta els elements de cada nivell
-##### Diccionaris: BSTs i AVLs
-- [P94818](https://github.com/maricarmen5/jutge-my-repository/blob/main/P94818.cpp) Inserint en un arbre de cerca
-- [P98436](https://github.com/maricarmen5/jutge-my-repository/blob/main/P98436.cpp) Trees - Recursive traversal
-- [P92765](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92765.cpp) Arbres - Buscant en un arbre de cerca
-- [X68607](https://github.com/maricarmen5/jutge-my-repository/blob/main/X68607.hpp) Classe diccionari (I)
-- [X90310](https://github.com/maricarmen5/jutge-my-repository/blob/main/X90310.hpp) Inserir i comptar claus repetides en un BST
-- [X67064](https://github.com/maricarmen5/jutge-my-repository/blob/main/X67064.hpp) Segona clau d’un diccionari BST
-##### Cues de prioritat
-- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
+## FOPR
+##### Primers Exercicis
+- P57548   Suma de dos enters
+- P41221   Suma de tres enters
+- P48107   Divisió entera i residu de dos naturals
+- P62421   Tres paraules
+- X17462   Multiplicació de dos enters
+- X29267   Àrea i circumferència d'un cercle
+##### Seqüencial i primeres alternatives
+- P56118   Màxim de dos enters
+- P90615   Màxim de tres enters
+- P15613   Temperatures
+- [P92351](https://github.com/maricarmen5/jutge-my-repository/blob/main/P92351.cpp)   Divisió entera i residu d'un enter amb un natural
+- P98960   Majúscules i minúscules
+- P42042   Classificació de caràcters (1)
+- P34279   Suma d'un segon
+- P92613   Arrodoniments
+- [P37469](https://github.com/maricarmen5/jutge-my-repository/blob/main/P37469.cpp)   Descomposició horària (1)
+- P61634   Anys de traspàs
+- P51126   Intervals (1)
+- P56559   Intervals (2)
+- [P89265](https://github.com/maricarmen5/jutge-my-repository/blob/main/P89265.cpp)   Intervals (3)
+- X60152   Prova d'alcoholèmia
+- X36683   Calculadora de Volums
+##### Condicional i bucles
+- P37500   Primers nombres
+- [P59875](https://github.com/maricarmen5/jutge-my-repository/blob/main/P59875.cpp)   Cap avall
+- P97156   Nombres en un interval
+- P36668   Suma de quadrats
+- P69277   Primers cubs
+- P31170   Taula de multiplicar
+- X26478   Compte enrere
+##### Funcions
+- P95401   Funció per als anys de traspàs
+- P96275   Valor absolut
+- P65437   Intercanvi
+- [P58459](https://github.com/maricarmen5/jutge-my-repository/blob/main/P58459.cpp)   Dates vàlides
+- P77686   Capicues
+- P34091   Nombres perfectes
+- P95972   Suma de divisors
+- P18777   Dia de la setmana
+##### Esquemes iteratius
+- P29973   Triangle
+- P72484   Rombe
+- P24080   Quadrats (1)
+- P39225   I-èsim (1)
+- P61061   Producte de dígits
+- [P71753](https://github.com/maricarmen5/jutge-my-repository/blob/main/P71753.cpp)   Màxim de cada seqüència
+- P80660   La seqüència de Collatz
+##### Fluxos de dades (I)
+- P75149   Buscant una a
+- P89078   Primera posició
+- P97969   Comptant as (1). Igual que el P67454 Comptant as (2)
+- P79817   Potències
+- P33839   Suma de dígits
+- [P89872](https://github.com/maricarmen5/jutge-my-repository/blob/main/P89872.cpp)   Segona paraula màxima
+##### Fluxos de dades (II)
+- P67454   Comptant as (2)
+- [P87523](https://github.com/maricarmen5/jutge-my-repository/blob/main/P87523.cpp)   Hola-adéu
+- P73501   Parells creixents
+- P23001   Paraules consecutives repetides
+- P35957   Dígits centrals
+- P71753   Màxim de cada seqüència
+##### Examen Parcial 2020-21 Q2
+- [P19564](https://github.com/maricarmen5/jutge-my-repository/blob/main/P19564.cpp)   Control C301B
+- [P50471](https://github.com/maricarmen5/jutge-my-repository/blob/main/P50471.cpp)   Control C402F
+##### Examen Parcial 2022-23 Q1
+- X44527   Lletra X
+- X48588   Hi ha dos nombres triple-3?
+##### Vectors (I)
+- P14130   Igual a l'últim
+- P78548   Invertint paraules (1)
+- P11725   Cerca seqüencial en una taula
+- P71310   Producte escalar
+- P67268   Inversió de seqüències
+##### Vectors (II)
+- P50497   És un palíndrom?
+- P87920   Com la suma dels demés (II)
+- P63414   Comptant freqüències
+- P24301   Concatenació de vectors
+- [P99133](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99133.cpp)   Invertint paraules (2)
+##### Vectors (III)
+- P16072   Intersecció de taules
+- P46584   Diferència de taules
+- P70093   Fusió de taules
+- P66257   L'element més freqüent
+##### Matrius
+- P61473   Matriu simètrica
+- P27498   Matriu transposta
+- P28318   Files i columnes
+- P26374   Sumes de matrius quadrades
+- [P44243](https://github.com/maricarmen5/jutge-my-repository/blob/main/P44243.cpp)   Espirals
+- [P16893](https://github.com/maricarmen5/jutge-my-repository/blob/main/P16893.cpp)   És la solució d'un Sudoku?
+- [P99555](https://github.com/maricarmen5/jutge-my-repository/blob/main/P99555.cpp)   Magic squares
+##### Recursivitat (FOPR)
+- P12509   Factorial recursiu
+- P42523   Màxim comú divisor recursiu
+- P61384   Factorial doble recursiu
+- P51222   Nombre de dígits recursiu
+- P35537   Nombres creixents
+- P61930   Múltiples de tres
+- P22467   Primers perfectes
+- P56549   Canvis de base
+##### Vectors i Matrius
+- [P87801](https://github.com/maricarmen5/jutge-my-repository/blob/main/P87801.cpp)   Sopa de lletres amb punts
+- [P73039](https://github.com/maricarmen5/jutge-my-repository/blob/main/P73039.cpp)   Dòmino
+##### Structs
+- [P56358](https://github.com/maricarmen5/jutge-my-repository/blob/main/P56358.cpp)   Sumar i restar un segon
+- P90532   Països i províncies (1)
+- P34438   Països i províncies (2)
+- [X13768](https://github.com/maricarmen5/jutge-my-repository/blob/main/X13768.cpp)   Jugadors de bàsquet
+##### Algorismes fonamentals
+- P29094   Posició del màxim
+- P81602   Ordenació per selecció
+- P98179   Inserció en taula ordenada
+- P41412   Ordenació per inserció
+- P81966   Cerca dicotòmica
+- P66257   L'element més freqüent
+##### Examen Final 2020-21 Q2
+- P58633   Control C403C
+- P67340   F010B. Alfils amenaçadors
+##### Examen Final 2021-22 Q1
+- X82134   Elements de la columna per sota que són menors
+- X84073   Cotxes i distàncies
+##### Examen Final 2022-23 Q1
+- [X85080](https://github.com/maricarmen5/jutge-my-repository/blob/main/X85080.cpp)   MercaTona Ofertes 3x2
+- X50679   Matriu 0
+##### Altres exàmens o activitats
+- P31992   Control C502C
+- P38685   Control C403A - Activitat 2
+- [P40187](https://github.com/maricarmen5/jutge-my-repository/blob/main/P40187.cpp)   Control C302C - Parcial
+- P94801   Control C203C - Parcial
+- P57047   Control C502B
+- P84528   F007A. Juguem a barcos? - Final
