@@ -66,6 +66,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X90310](https://github.com/maricarmen5/jutge-my-repository/blob/main/X90310.hpp) Inserir i comptar claus repetides en un BST
 - [X67064](https://github.com/maricarmen5/jutge-my-repository/blob/main/X67064.hpp) Segona clau d’un diccionari BST
 - [X29540](https://github.com/maricarmen5/jutge-my-repository/blob/main/X29540.hpp) Tipus de desequilibri a l'inserir una clau en un BST
+##### Taules de Dispersió
+- [X89802](https://github.com/maricarmen5/jutge-my-repository/blob/main/X89802.hpp) Intersecció de taules de dispersió amb sinònims encadenats indirectes
 ##### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
 ## PRO1
