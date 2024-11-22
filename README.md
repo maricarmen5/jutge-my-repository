@@ -69,6 +69,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ##### Taules de Dispersió
 - [X89802](https://github.com/maricarmen5/jutge-my-repository/blob/main/X89802.hpp) Intersecció de taules de dispersió amb sinònims encadenats indirectes
 - [X32546](https://github.com/maricarmen5/jutge-my-repository/blob/main/X32546.hpp) Redispersió en taules de dispersió amb direccionament obert fent sondeig lineal
+- [X64175](https://github.com/maricarmen5/jutge-my-repository/blob/main/X64175.hpp) Redispersió en taules de dispersió amb sinònims encadenats indirectes
 ##### Cues de prioritat
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
 ## PRO1
