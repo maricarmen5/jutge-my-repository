@@ -25,6 +25,11 @@ private:
     return n;
   }
 
+// Pre: `arrel` és la referència a un node d'un arbre (pot ser nullptr). `k` és un valor enter.
+// Post: Retorna true si `k` es troba al subarbre amb arrel `arrel`, i false en cas contrari.
+// Cost temporal: O(h), on h és l'altura del subarbre amb arrel `arrel`.
+//                En un BST equilibrat, aquest cost és O(log n), on n és el nombre de nodes de l'arbre.
+//                En el pitjor cas (BST completament desequilibrat), el cost és O(n).
   bool es_troba_aux(node* arrel, const int& k) {
     bool esTrobaK = false;
 
