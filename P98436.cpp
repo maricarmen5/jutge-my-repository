@@ -9,7 +9,11 @@ class Arbre {
       int info;
     };
     node* _arrel;
-    
+
+// Pre: `n` és la referència a un node d'un arbre (pot ser nullptr). `k` és un valor enter a inserir,
+//       seguit d'una successió de valors llegits per cin (amb -1 com a marcador de nul·litat).
+// Post: Retorna el punter a l'arrel del subarbre construït en preordre segons els valors de `cin`.
+// Cost temporal: O(n), on n és el nombre total d'elements llegits fins a completar l'arbre.
     node* insereix_preodre_aux(node* n, int k) {
       if (k != -1) {
         n = new node;
@@ -25,6 +29,11 @@ class Arbre {
       return n;
     }
 
+// Pre: `arrel` és la referència a un node d'un arbre o nullptr.
+// Post: Escriu en ordre postordre (esquerra -> dreta -> arrel) les claus de l'arbre/subarbre
+//       amb arrel `arrel`, separades per espais.
+// Cost temporal: O(n), on n és el nombre total de nodes del subarbre amb arrel `arrel` 
+//       (es visita cada node exactament una vegada).
     void print_postordre_aux(node* arrel) const {
       if (arrel != nullptr) {
         print_postordre_aux(arrel->f_esq);
@@ -33,6 +42,11 @@ class Arbre {
       }
     }
 
+// Pre: `arrel` és la referència a un node d'un arbre o nullptr.
+// Post: Escriu en ordre inordre (esquerra -> arrel -> dreta) les claus de l'arbre/subarbre
+//       amb arrel `arrel`, separades per espais.
+// Cost temporal: O(n), on n és el nombre total de nodes del subarbre amb arrel `arrel` 
+//       (es visita cada node exactament una vegada).
     void print_inordre_aux(node* arrel) const {
       if (arrel != nullptr) {
         print_inordre_aux(arrel->f_esq);
