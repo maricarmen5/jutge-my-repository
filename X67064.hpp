@@ -40,6 +40,11 @@ private:
 
 // Aquí va la implementació dels mètodes públics i privats
 
+// Pre: L'arbre no és buit i conté almenys dos nodes (1 < _n).
+// Post: Retorna la segona clau més petita de l'arbre, segons l'ordre del BST.
+// Cost temporal: O(h), on h és l'altura de l'arbre.
+//                En un BST equilibrat, aquest cost és O(log n), on n és el nombre de nodes de l'arbre.
+//                En el pitjor cas (BST completament desequilibrat), el cost és O(n).
 template <typename Clau>
 Clau dicc<Clau>::segona() const {
     node* primer = _arrel;
