@@ -38,12 +38,11 @@ nat dicc::quantes_comencen(string inicials) const {
     return quantes;
 }
 
-// Pre: arrel apunta a un node d'un TST, 
-//      inicials no conté '#',
-//      incial és cert si es s'ha de buscar si la clau d'arrel es troba a inicials i
-//             és fals si ja s'ha trobat i s'estan comptant claus completes.
-// Post: retorna el nombre de claus al TST que comencen per algun caràcter de incials
-// O(m*h), h = altura de l'arbre
+// Pre: `arrel` apunta al node actual del trie, o és `nullptr`. 
+//      `inicials` és una cadena no buida que no conté el caràcter `'#'`.
+//      `inicial` indica si estem tractant el primer nivell del trie (true si és el primer nivell).
+// Post: Retorna el nombre de claus que comencen per algun dels caràcters de `inicials`.
+// Cost temporal: O(n · m), on n és el nombre de nodes del trie i m és la longitud de `inicials`.
 nat dicc::quantes_comencen_aux(node* arrel, string& inicials, bool inicial) const {
     nat quantes = 0;
 
@@ -61,6 +60,11 @@ nat dicc::quantes_comencen_aux(node* arrel, string& inicials, bool inicial) cons
     return quantes;
 }
 
+// Pre: `arrel` apunta a un node del trie, o és `nullptr`.
+//      `inicials` és una cadena no buida que no conté el caràcter `'#'`.
+// Post: Retorna `true` si el símbol del node actual (`arrel->_c`) 
+//       es troba dins de la cadena `inicials`. En cas contrari, retorna `false`.
+// Cost temporal: O(m), on m és la longitud de la cadena `inicials`.
 bool dicc::es_troba_a_inicials(node* arrel, string& inicials) const {
     bool trobat = false;
     unsigned int i = 0;
