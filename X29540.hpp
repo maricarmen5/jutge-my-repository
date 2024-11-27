@@ -47,7 +47,12 @@ pair<Clau, char> dicc<Clau>::insereix(const Clau &k) {
     return desequilibri;
 }
 
-// cost temporal[pitjor cas] = O(n), cost temporal[cas mig] = O(log(n))
+// Pre: `arrel` apunta a la raíz del subárbol (puede ser null). 
+//      `k` es la clave a insertar. `desequilibri` es un pair inicializado con un espacio (' ').
+// Post: Inserta la clave `k` en el subárbol apuntado por `arrel`. 
+//       Si se detecta un desequilibrio, el primer elemento de `desequilibri` es la clave desequilibrada 
+//       y el segundo indica el lado del desequilibrio ('E' para izquierdo, 'D' para derecho).
+// cost temporal[pitjor cas] = O(n), cost temporal[cas mig] = O(log(n)). O sigui O(h)
 template <typename Clau>
 void dicc<Clau>::insereix_aux(node*& arrel, const Clau &k, pair<Clau, char>& desequilibri) {
     if (arrel == nullptr) {
