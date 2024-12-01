@@ -40,7 +40,11 @@ private:
 };
 
 // Aquí va la implementació dels mètodes públics i privats
-// cost: O(h), h = altura de l'arbre, si està força equilibrat llavors h = O(log(n)), n = nodes de l'arbre
+
+// Pre: La clave `k` existe en el diccionario y tiene un sucesor.
+// Post: Retorna la clave sucesora de `k` en el diccionario, es decir, 
+//       la clave más pequeña que es estrictamente mayor que `k`.
+// cost: O(h), h = altura de l'arbre, si està força equilibrat llavors h = O(log(n)) sinò O(n), n = nodes de l'arbre
 template <typename Clau>
 Clau dicc<Clau>::successor(const Clau &k) const {
     node* nodeK = _arrel;

@@ -57,6 +57,11 @@ void dicc<Clau>::insereix(const Clau &k) {
     _arrel = insereix_aux(_arrel, k);
 }
 
+// Pre: `arrel` és la referència a la subarrel d'un BST. `k` és la clau a inserir.
+// Post: Insereix la clau `k` al BST. Retorna el punter a l'arrel actualitzada del subarbre.
+// Cost temporal: O(h), on h és l'altura del subarbre amb arrel `arrel`.
+//                En un BST equilibrat, aquest cost és O(log n), on n és el nombre de nodes de l'arbre.
+//                En el pitjor cas (BST completament desequilibrat), el cost és O(n).
 template <typename Clau>
 typename dicc<Clau>::node* dicc<Clau>::insereix_aux(node* arrel, const Clau &k) {
     if (arrel == nullptr) {
@@ -72,6 +77,11 @@ typename dicc<Clau>::node* dicc<Clau>::insereix_aux(node* arrel, const Clau &k) 
     return arrel;
 }
 
+// Pre: `arrel` és la referència a la subarrel d'un BST. `k` és la clau a comptar.
+// Post: Retorna el nombre d'elements del BST iguals a `k` en el subarbre amb arrel `arrel`.
+// Cost temporal: O(h), on h és l'altura del subarbre amb arrel `arrel`.
+//                En un BST equilibrat, aquest cost és O(log n), on n és el nombre de nodes de l'arbre.
+//                En el pitjor cas (BST completament desequilibrat), el cost és O(n).
 template <typename Clau>
 nat dicc<Clau>::quantes_aux(node* arrel, const Clau &k) const {
     nat copiesK = 0;

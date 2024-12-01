@@ -64,6 +64,10 @@ float dicc::factor_de_carrega() const {
     return factorDeCarrega;
 }
 
+// Pre: Cert
+// Post: Redimensiona la taula de dispersió duplicant la mida (_M = 2*_M + 1)
+//       i reinserint tots els elements de l'antiga taula de manera que respectin la nova distribució.
+// Cost temporal: O(M + n), on M és la mida antiga de la taula i n és el nombre total d'elements ocupats.
 void dicc::redispersio() {
     node_hash** exTaula = _taula;
     nat exM = _M;

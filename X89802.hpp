@@ -49,6 +49,14 @@ private:
 
 // Aquí va la implementació dels mètodes públics insereix, interseccio i
 // dels mètodes privats addicionals
+
+// Pre: Cert
+// Post: Insereix la clau `k` al diccionari si no hi és. Si ja existeix, no fa res.
+// Cost temporal: O(1) en el cas esperat, assumint una bona funció de dispersió i que 
+//                les llistes de col·lisions tenen longitud curta (O(α), on α = n / M és 
+//                el factor de càrrega).
+//                En el pitjor cas (totes les claus a la mateixa llista): O(n), amb n el 
+//                nombre d'elements.
 void dicc::insereix(const int &k) {
     long i = h(k);
     i = i%_M;
@@ -72,6 +80,10 @@ void dicc::insereix(const int &k) {
     }
 }
 
+// Pre: El diccionari `res` està buit.
+// Post: Omple `res` amb la intersecció dels elements del p.i. i `d2`.
+// Cost temporal: O(M + min(n1, n2)), on M és la mida de la taula hash, i 
+//                n1 i n2 són el nombre d’elements del p.i. i `d2`, respectivament.
 void dicc::interseccio(const dicc &d2, dicc &res) const {
     for (nat i = 0; i < _M; ++i) {
         node_hash* p1 = _taula[i];

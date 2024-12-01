@@ -12,7 +12,10 @@ class Dicc {
       Clau _k;
     };
     node* _arrel;
-    
+
+// Pre: `n` és la referència a un node d'un BST, pot ser nullptr. `k` és una clau que es vol inserir.
+// Post: Retorna el punter a l'arrel del subarbre resultant amb `k` inserida correctament. Si `k` ja hi era, no fa res.
+// Cost temporal: O(h), on h és l'altura de l'arbre. En el pitjor cas, h = O(n) per un arbre degenerat.
     node* insereix_aux(node* n, const Clau &k) {
         if (n == nullptr) {
             n = new node;
@@ -26,6 +29,10 @@ class Dicc {
         return n;
     }
 
+// Pre: `n` és la referència a un node d'un BST o nullptr. `nivell` indica el nivell actual a imprimir.
+// Post: Escriu les claus del subarbre amb arrel `n` en ordre descendent (dreta -> arrel -> esquerra),
+//       amb una indentació proporcional al nivell.
+// Cost temporal: O(n), on n és el nombre total de nodes del subarbre amb arrel `n` (es visita cada node exactament una vegada).
     void print_aux(node* n, int nivell) const {
         if (n != nullptr) {
             print_aux(n->f_dret, nivell+1);
