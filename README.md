@@ -77,7 +77,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X84615](https://github.com/maricarmen5/jutge-my-repository/blob/main/X84615.hpp) Trie TST. Freqüència de les longituds de les claus.
 - [X97406](https://github.com/maricarmen5/jutge-my-repository/blob/main/X97406.hpp) Trie TST. Compta les claus que comencen per algun dels caràcters donats.
 ##### Cues de prioritat
-- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp)   Cues d'un supermercat (3)
+- [P83396](https://github.com/maricarmen5/jutge-my-repository/blob/main/P83396.cpp) Cues d'un supermercat (2)
+- [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp) Cues d'un supermercat (3)
 - [X14777](https://github.com/maricarmen5/jutge-my-repository/blob/main/X14777.hpp) Heap amb memòria dinàmica. Eliminar mínim
 ##### Ordenació eficient
 - [P40558](https://github.com/maricarmen5/jutge-my-repository/blob/main/P40558.cpp) Ordenant amb cues de prioritats

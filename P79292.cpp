@@ -3,85 +3,93 @@
 #include <vector>
 #include <sstream>
 #include <string>
-#include <map>
 using namespace std;
 
-typedef vector< vector< queue<string> > > Matrix;
+typedef vector< vector< queue<string> > > Matriu;
 
-void print_queue(queue<string> q, bool depart)
-{
-    while (not q.empty()) {
-        if (depart) cout << endl;
-        else cout << ' ';
-        cout << q.front();
-        q.pop();
-    }
+int obte_rang(string& graduacio) {
+    int rang = 0; // coronel
+    if (graduacio == "soldat") rang = 3;
+    else if (graduacio == "sergent") rang = 2;
+    else if (graduacio == "capita") rang = 1;
+    return rang;
 }
 
-int main ()
-{
-    map<string, int> graduation;
-    graduation["soldier"] = 3; 
-    graduation["sergeant"] = 2;
-    graduation["captain"] = 1;
-    graduation["colonel"] = 0;
+void surt_o_entra(int n, vector<string>& sortides, Matriu& cues) {
+    string succes;
+    while (cin >> succes) {
+        if (succes == "SURT") {
+            int cua;
+            cin >> cua;
 
-    int n;
-    cin >> n;
-    Matrix all_queues(n, vector< queue<string> >(4));
-    cin.ignore();
-
-    string customer, range;
-    for (int i = 0; i < n; ++i) {
-        string line;
-        if (getline(cin, line)) {
-            istringstream ss(line);
-            while (ss >> customer >> range) {
-                all_queues[i][graduation[range]].push(customer);
-            }
-        }
-    }
-    cin.ignore();
-
-    queue<string> departs;
-    string event;
-    while (cin >> event) {
-        int queue;
-
-        if (event == "ENTERS") {
-            cin >> customer >> range >> queue;
-            --queue;
-            if (0 <= queue and queue < n) all_queues[queue][graduation[range]].push(customer);
-        }
-        else {
-            cin >> queue;
-            --queue;
-            if (0 <= queue and queue < n) {
+            if (0 < cua and cua < n+1) {
                 int i = 0;
                 while (i < 4) {
-                    if (not all_queues[queue][i].empty()) {
-                        departs.push(all_queues[queue][i].front());
-                        all_queues[queue][i].pop();
+                    if (not cues[cua-1][i].empty()) {
+                        string expulsat = cues[cua-1][i].front();
+                        cues[cua-1][i].pop();
+                        sortides.push_back(expulsat);
                         i = 4;
                     }
                     ++i;
                 }
             }
+        } else { // ENTRA
+            string nom;
+            string graduacio;
+            int cua;
+            cin >> nom >> graduacio >> cua;
+
+            if (0 < cua and cua < n+1) cues[cua-1][obte_rang(graduacio)].push(nom);
         }
     }
+}
 
-    cout << "DEPARTS" << endl;
-    cout << "-------";
-    print_queue(departs, true);
-    cout << endl << endl;
-
-    cout << "FINAL CONTENTS" << endl;
-    cout << "--------------" << endl;
+void mostra_cua(int n, Matriu& cues) {
     for (int i = 0; i < n; ++i) {
-        cout << "queue " << i + 1 << ':';
+        cout << "cua " << i+1 << ':';
         for (int j = 0; j < 4; ++j) {
-            print_queue(all_queues[i][j], false);
+            while (not cues[i][j].empty()) {
+                string expulsat = cues[i][j].front();
+                cues[i][j].pop();
+                cout << ' ' << expulsat;
+            }
         }
         cout << endl;
     }
+}
+
+int main () {
+    int n;
+    cin >> n;
+    cin.ignore();
+
+    Matriu cues(n, vector< queue<string> >(4));
+
+    for (int i = 0; i < n; ++i) {
+        string line;
+        if (getline(cin, line)) {
+            istringstream ss(line);
+            string nom, graduacio;
+            while (ss >> nom >> graduacio) {
+                cues[i][obte_rang(graduacio)].push(nom);
+            }
+        }
+    }
+    cin.ignore();
+
+    vector<string> sortides;
+    string succes;
+    surt_o_entra(n, sortides, cues);
+
+    cout << "SORTIDES" << endl;
+    cout << "--------" << endl;
+    for (unsigned int i = 0; i < sortides.size(); ++i) {
+        cout << sortides[i] << endl;
+    }
+    cout << endl;
+
+    cout << "CONTINGUTS FINALS" << endl;
+    cout << "-----------------" << endl;
+    mostra_cua(n, cues);
 }
