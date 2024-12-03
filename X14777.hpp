@@ -1,4 +1,5 @@
 #include <cstdlib>
+#include <utility> // per utilitzar swap
 using namespace std;
 typedef unsigned int nat;
 
@@ -57,69 +58,75 @@ private:
 };
 
 // Aquí va la implementació del mètode elim_min
+
+/* 
+* PRE: El heap no és buit.
+* POST: S’ha eliminat l’element mínim del heap o qualsevol d’ells si està repetit.
+* COST: O(log n), on n és el nombre d’elements del heap. Es localitza l'últim node 
+*        en temps O(log n) i després es reorganitza el heap mitjançant enfonsar, que 
+*        també té un cost O(log n).
+*/
 template <typename T>
 void heap<T>::elim_min() {
     node* min = _arrel;
     node* ult = nullptr;
     node* pare_ult = nullptr;
     ultim(ult, pare_ult);
-
-    if (ult == min) _arrel = nullptr;
+    
+    if (ult == min) _arrel = nullptr; // _nelems = 1
     else {
+        if (pare_ult->fdret == ult) pare_ult->fdret = nullptr;
+        else pare_ult->fesq = nullptr;
+
         _arrel = ult;
         _arrel->pare = nullptr;
 
-        if (pare_ult != min) {
-            _arrel->fesq = min->fesq;
-            _arrel->fdret = min->fdret;
+        _arrel->fdret = min->fdret;
+        if (min->fdret !=  nullptr) min->fdret->pare = _arrel;
+        _arrel->fesq = min->fesq;
+        if (min->fesq != nullptr) min->fesq->pare = _arrel;
 
-            if (pare_ult->fdret == ult) pare_ult->fdret = nullptr;
-            else pare_ult->fesq = nullptr;
-
-            enfonsar(_arrel);
-        }
+        enfonsar(_arrel);
+        while (_arrel->pare != nullptr) _arrel = _arrel->pare;
     }
 
     delete min;
+    --_nelems;
 }
 
+/* 
+* PRE: L’arrel apunta a un node que compleix la propietat de heap amb els 
+*      seus fills, excepte possiblement amb els seus descendents directes.
+* POST: L’arrel i tots els seus descendents compleixen la propietat de min-heap.
+* COST: O(log n), on n és el nombre d’elements del heap. En el pitjor cas 
+*      s'han de fer intercanvis fins a la fulla més profunda del heap.
+*/
 template <typename T>
 void heap<T>::enfonsar(node* arrel) {
     node* pare = arrel->pare;
-    char tipusArrel = 'X'; // X -> _arrel, E -> pare->fesq = arrel, D pare->fdret = arrel;
-    if (pare != nullptr) {
-        if (pare->fesq == arrel) tipusArrel = 'E'
-        else tipusArrel = 'D';
-    }
 
     node* fill = arrel->fdret;
+    node* altreFill = arrel->fesq;
     char tipusFill = 'D';
     if (fill == nullptr or arrel->fesq->info < fill->info) {
-        fill = arrel->fesq;
+        swap(fill, altreFill);
         tipusFill = 'E';
     }
 
-    if (fill != nullptr) {
-        node* germa = arrel->fesq;
-        if (tipusFill == 'D') germa = arrel->fdret;
-
+    if (fill != nullptr and fill->info < arrel->info) {
         arrel->fesq = fill->fesq;
         if (fill->fesq != nullptr) fill->fesq->pare = arrel;
         arrel->fdret = fill->fdret;
         if (fill->fdret != nullptr) fill->fdret->pare = arrel;
 
+        if (pare != nullptr and pare->fdret == arrel) pare->fdret = fill;
+        else if (pare != nullptr) pare->fesq = fill;
         fill->pare = pare;
-        if (tipusArrel == 'E') pare->fesq = fill;
-        else if (tipusArrel == 'D') pare->fdret = fill;
 
-        if (tipusFill == 'E') {
-            fill->fesq = arrel;
-            fill->fdret = germa;  
-        } else {
-            fill->fdret = arrel;
-            fill->fesq = germa;
-        }
-        if (germa != nullptr) germa->pare = fill;
+        fill->fesq = arrel;
+        fill->fdret = altreFill;  
+        if (tipusFill == 'D') swap(fill->fdret, fill->fesq);
+        if (altreFill != nullptr) altreFill->pare = fill;
         arrel->pare = fill;
 
         enfonsar(arrel);
