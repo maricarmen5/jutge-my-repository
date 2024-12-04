@@ -81,6 +81,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/P79292.cpp) Cues d'un supermercat (3)
 - [X14777](https://github.com/maricarmen5/jutge-my-repository/blob/main/X14777.hpp) Heap amb memòria dinàmica. Eliminar mínim
 ##### Ordenació eficient
+- [P52205](https://github.com/maricarmen5/jutge-my-repository/tree/main/P52205) Ordenació per fusió
 - [P40558](https://github.com/maricarmen5/jutge-my-repository/blob/main/P40558.cpp) Ordenant amb cues de prioritats
 ## PRO1
 ##### Recursivitat
