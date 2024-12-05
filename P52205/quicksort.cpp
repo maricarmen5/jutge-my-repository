@@ -5,33 +5,29 @@
 using namespace std;
 
 /* 
-   PRE: v[i..j] és un vector qualsevol, i <= j.
-   POST: retorna la posició final del pivot (k) i reorganitza v de manera que:
-         - v[i..k-1] conté elements <= pivot.
-         - v[k+1..j] conté elements > pivot.
-   COST TEMPORAL: O(n), on n = j - i + 1.
+PRE: `v` és un vector inicialitzat amb almenys `j + 1` elements, i `i` i `j` són índexs vàlids dins del vector. 
+POST: Els elements de `v[i..j]` estan reorganitzats: els menors o iguals al pivot queden a l'esquerra, els majors a la dreta, i el pivot en la seva posició final. 
+COST TEMPORAL: O(j - i + 1), lineal respecte a la mida del subvector.
 */
 int particio(vector<double>& v, int i, int j) {
-    double pivot = v[j];
-    int p = i-1;
+    double pivot = v[i];
+    int a = i+1;
+    int b = j;
 
-    for (int index = i; index < j; ++index) {
-        if (v[index] <= pivot) {
-            ++p;
-            swap(v[index], v[p]);
-        }
+    while (a < b+1) {
+        while (a < b+1 and v[a] <= pivot) ++a;
+        while (a < b+1 and pivot <= v[b]) --b;
+        if (a < b+1) swap(v[a], v[b]);
     }
-    
-    ++p;
-    swap(v[p], v[j]);
-    return p;
+
+    swap(v[i], v[b]);
+    return b;
 }
 
 /* 
-   PRE: v[i..j] és un vector qualsevol, i <= j.
-   POST: v[i..j] està ordenat en ordre creixent.
-   COST TEMPORAL: O(n^2), on n = j - i + 1, en el pitjor cas (vector inversament ordenat).
-                  O(n) en el millor cas (vector gairebé ordenat).
+PRE: `v` és un vector inicialitzat amb almenys `j + 1` elements, i `i` i `j` són índexs vàlids dins del vector. 
+POST: Els elements de `v[i..j]` estan ordenats en ordre creixent. 
+COST TEMPORAL: Cas mitjà O(n log n), pitjor cas O(n²). Per subgrups petits (≤ 20 elements), s'utilitza ordenació per inserció amb cost O(m²), on m és la mida del subgrup.
 */
 void ordena_per_insercio(vector<double>& v, int i, int j) {
     for (int m = i+1; m <= j; ++m) {
@@ -55,14 +51,12 @@ void ordena_per_insercio(vector<double>& v, int i, int j) {
          - La complexitat es redueix gràcies a l'ús d'ordenació per inserció per a segments petits.
 */
 void quicksort(vector<double>& v, int i, int j) {
-    if (i < j) {
-        if (j-i+1 <= 20) { // M (llindar) = 20
-            ordena_per_insercio(v, i, j);
-        } else {
-            int k = particio(v, i, j);
-            quicksort(v, i, k-1);
-            quicksort(v, k+1, j);
-        }
+    if (j-i+1 <= 20) { // M (llindar) = 20
+        ordena_per_insercio(v, i, j);
+    } else {
+        int k = particio(v, i, j);
+        quicksort(v, i, k-1);
+        quicksort(v, k+1, j);
     }
 }
 
