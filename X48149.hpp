@@ -39,12 +39,18 @@ class bst {
 };
 
 // Aquí va la implementació dels mètodes públics i privats de bst
+
+/* Pre: Cap (el BST pot estar buit o no).  
+   Post: Insereix la clau k al BST si no hi és.  
+   Cost: O(h), on h és l'alçada del BST. */
 template <typename Clau>
 void bst<Clau>::insereix(const Clau& k) {
     insereix_aux(_arrel, k);
 }
 
-
+/* Pre: Cap (l'arbre pot ser buit).  
+   Post: Omple el vector v amb les claus del BST en ordre creixent.  
+   Cost: O(n), on n és el nombre de nodes del BST. */
 template <typename Clau>
 template <typename T>
 void bst<Clau>::recorregut_inordre(vector<T>& v) {
@@ -52,6 +58,9 @@ void bst<Clau>::recorregut_inordre(vector<T>& v) {
     recorregut_inordre_aux(_arrel, i, v);
 }
 
+/* Pre: arrel apunta a un node vàlid o és nullptr; k és la clau a inserir.  
+   Post: Insereix la clau k en l'arbre, mantenint la propietat del BST.  
+   Cost: O(h), on h és l'alçada del BST. */
 template <typename Clau>
 void bst<Clau>::insereix_aux(node*& arrel, const Clau& k) {
     if (arrel == nullptr) {
@@ -64,6 +73,9 @@ void bst<Clau>::insereix_aux(node*& arrel, const Clau& k) {
     else insereix_aux(arrel->_dret, k);
 }
 
+/* Pre: Cap (l'arbre pot ser buit).  
+   Post: Omple el vector v amb les claus del BST en ordre creixent.  
+   Cost: O(n), on n és el nombre de nodes del BST. */
 template <typename Clau>
 template <typename T>
 void bst<Clau>::recorregut_inordre_aux(node*& arrel, int& i, vector<T>& v) {
