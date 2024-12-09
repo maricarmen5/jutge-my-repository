@@ -70,6 +70,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X86307](https://github.com/maricarmen5/jutge-my-repository/blob/main/X86307.hpp) Desequilibris a l'inserir una clau en un BST
 - [X94927](https://github.com/maricarmen5/jutge-my-repository/blob/main/X94927.hpp) Intersecció de dos BSTs
 - [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/X48149.hpp) Ordenació eficient usant un BST
+- [X59997](https://github.com/maricarmen5/jutge-my-repository/blob/main/X59997.cpp) N Elements endarrera a un BST
 ##### Taules de Dispersió
 - [X89802](https://github.com/maricarmen5/jutge-my-repository/blob/main/X89802.hpp) Intersecció de taules de dispersió amb sinònims encadenats indirectes
 - [X32546](https://github.com/maricarmen5/jutge-my-repository/blob/main/X32546.hpp) Redispersió en taules de dispersió amb direccionament obert fent sondeig lineal
