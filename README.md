@@ -72,6 +72,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/X48149.hpp) Ordenació eficient usant un BST
 - [X59997](https://github.com/maricarmen5/jutge-my-repository/blob/main/X59997.cpp) N Elements endarrera a un BST
 - [X26203](https://github.com/maricarmen5/jutge-my-repository/blob/main/X26203.cpp) N Elements endavant a un BST
+- [X21271](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21271.hpp) Elements entre el i-èssim i j-èssim d'un BST
 ##### Taules de Dispersió
 - [X89802](https://github.com/maricarmen5/jutge-my-repository/blob/main/X89802.hpp) Intersecció de taules de dispersió amb sinònims encadenats indirectes
 - [X32546](https://github.com/maricarmen5/jutge-my-repository/blob/main/X32546.hpp) Redispersió en taules de dispersió amb direccionament obert fent sondeig lineal
