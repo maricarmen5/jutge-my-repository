@@ -69,7 +69,6 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X73724](https://github.com/maricarmen5/jutge-my-repository/blob/main/X73724.hpp) Successor d'un element en un BST
 - [X86307](https://github.com/maricarmen5/jutge-my-repository/blob/main/X86307.hpp) Desequilibris a l'inserir una clau en un BST
 - [X94927](https://github.com/maricarmen5/jutge-my-repository/blob/main/X94927.hpp) Intersecció de dos BSTs
-- [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/X48149.hpp) Ordenació eficient usant un BST
 - [X59997](https://github.com/maricarmen5/jutge-my-repository/blob/main/X59997.cpp) N Elements endarrera a un BST
 - [X26203](https://github.com/maricarmen5/jutge-my-repository/blob/main/X26203.cpp) N Elements endavant a un BST
 - [X21271](https://github.com/maricarmen5/jutge-my-repository/blob/main/X21271.hpp) Elements entre el i-èssim i j-èssim d'un BST
@@ -90,6 +89,11 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ##### Ordenació eficient
 - [P52205](https://github.com/maricarmen5/jutge-my-repository/tree/main/P52205) Ordenació per fusió
 - [P40558](https://github.com/maricarmen5/jutge-my-repository/blob/main/P40558.cpp) Ordenant amb cues de prioritats
+##### Activitat 3
+- [X94160](https://github.com/maricarmen5/jutge-my-repository/blob/main/X94160.cpp) Ordenació MergeSort d'una pila
+- [X94050](https://github.com/maricarmen5/jutge-my-repository/blob/main/X94050.cpp) Ordenació RadixSort de naturals
+- [X35951](https://github.com/maricarmen5/jutge-my-repository/blob/main/X35951.cpp) Ordenació QuickSort d'una cua
+- [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/X48149.hpp) Ordenació eficient usant un BST
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
