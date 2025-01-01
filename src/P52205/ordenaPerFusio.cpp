@@ -6,7 +6,7 @@ using namespace std;
 /* 
    PRE: v[esquerra..mig] i v[mig+1..dreta] estan ordenats en ordre creixent.
    POST: v[esquerra..dreta] està ordenat en ordre creixent.
-   COST TEMPORAL: O(n), on n = dreta - esquerra + 1.
+   COST TEMPORAL: O(n), n = dreta - esquerra + 1.
 */
 void fusiona(vector<double>& v, int esquerra, int mig, int dreta) {
     int midaEsq = mig-esquerra+1;
