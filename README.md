@@ -96,6 +96,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X48149.hpp) Ordenació eficient usant un BST
 ##### Grafs
 - [X78824](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X78824.hpp) Graf dirigit amb matriu d'adjacència. Hi ha camí d'un vèrtex a un altre?
+- [X89807](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X89807.hpp) Graf dirigit amb llistes d'adjacència. Hi ha camí d'un vèrtex a un altre?
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
