@@ -94,6 +94,8 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X94050](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X94050.cpp) Ordenació RadixSort de naturals
 - [X35951](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X35951.cpp) Ordenació QuickSort d'una cua
 - [X48149](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X48149.hpp) Ordenació eficient usant un BST
+##### Grafs
+- [X78824](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X78824.hpp) Graf dirigit amb matriu d'adjacència. Hi ha camí d'un vèrtex a un altre?
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
