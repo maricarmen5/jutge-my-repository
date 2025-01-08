@@ -99,6 +99,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X89807](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X89807.hpp) Graf dirigit amb llistes d'adjacència. Hi ha camí d'un vèrtex a un altre?
 - [X95633](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X95633.hpp) Graf dirigit amb multillistes d'adjacència. Insereix arestes.
 - [X16885](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X16885.hpp) Graf dirigit amb matriu d'adjacència. Successors diferents dels successors de cada vèrtex
+- [X11899](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X11899.hpp) Graf dirigit amb multillistes d'adjacència. Elimina arestes.
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
