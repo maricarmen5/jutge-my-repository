@@ -82,6 +82,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X20104](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X20104.hpp) Trie primer fill-següent germà. Freqüència de les longituds de les claus.
 - [X84615](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X84615.hpp) Trie TST. Freqüència de les longituds de les claus.
 - [X97406](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X97406.hpp) Trie TST. Compta les claus que comencen per algun dels caràcters donats.
+- [X24161](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X24161.hpp) Trie TST. Compta les claus entre dues claus donades.
 ##### Cues de prioritat
 - [P83396](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/P83396.cpp) Cues d'un supermercat (2)
 - [P79292](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/P79292.cpp) Cues d'un supermercat (3)
