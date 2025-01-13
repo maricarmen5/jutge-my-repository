@@ -105,7 +105,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 - [X46552](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X46552.hpp) Graf dirigit amb llistes d'adjacència. Quants vèrtexs diferents es poden visitar des de cada vèrtex
 - [X53729](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X53729.hpp) Graf dirigit amb llistes d'adjacència. Successors diferents dels successors de cada vèrtex
 - [X94168](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X94168.hpp) Graf dirigit amb matrius d'adjacència. Quantes arestes diferents es poden visitar des de cada vèrtex
-- [X90876]https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X90876.hpp() Graf dirigit amb llistes d'adjacència. Quantes arestes diferents es poden visitar des de cada vèrtex
+- [X90876](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/X90876.hpp) Graf dirigit amb llistes d'adjacència. Quantes arestes diferents es poden visitar des de cada vèrtex
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
