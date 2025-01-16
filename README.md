@@ -109,6 +109,7 @@ Aquest repositori conté les meves solucions als problemes de [Jutge](https://ju
 ##### Control Final
 - [S13644](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/S13644.hpp) Partició amb una taula de dispersió indirecta. Cercar el representant del bloc al que pertany una clau.
 - [Y89716](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/Y89716.hpp) Graf dirigit amb llistes d'adjacència. Hi ha cicles des de cada vèrtex?
+- [S35955](https://github.com/maricarmen5/jutge-my-repository/blob/main/src/S35955.hpp) Trie TST. Compta les claus que satisfan un cert patró.
 ## PRO1
 ##### Recursivitat
 - P12509   Factorial recursiu
